@@ -1,0 +1,419 @@
+Date,Gender,Education,Employed?,Age,ubscriber_Period,Accessed_Healthcare,HDYSHDUTNHIS,DYKAT_NHIS_MRS,HYEUTMRSB,IYHWYRTS,DYATTMRSSBCOS,,UTMRSEMTRMHIF,TMRSSMTARIRMHI,TMRSEMEIRMHI,TMRSIPIHD,TMRSIETU,LTUTMRSIE,IWTSRALOME,MIWTSICAU,IWUTMRSTRMHI,IAAOTBOUTMRSAMAP,"If I have access to mobile money services, I will use the Mobile Renewal Service",Mobile Renewal Service offers useful and satisfying services,The quality of Mobile Renewal Service is good,The use of Mobile Renewal Service has a high cost,The service charge by the telecommunication companies for using the Mobile Renewal Service is high,I face some financial barriers to use the Mobile Renewal Service,The Mobile Renewal Service is always accessible,Disruptions and problems always occur in accessing the Mobile Renewal Service ,Mobile Renewal Service is available everywhere and every time even on holidays.,The Mobile Renewal Service is reliable,The Mobile Renewal Service is authentic and reliable in its claims,I trust the telecommunication operators to provide secure data communication for using the Mobile Renewal Service,The use of the Mobile Renewal Service will not disclose my personal information,I am satisfied with the overall performance of the Mobile Renewal Service
+7/17/2021 14:09:21,Male,High School or below,Unemployed,40-49 years,Between 10 and 15 years,Yes,Poor,Yes,No,,Continued,,1,1,1,4,1,4,1,1,1,1,1,1,1,1,4,4,4,4,4,2,1,4,4,4
+7/17/2021 14:15:26,Male,Bachelor,Public Sector,50 years and above,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Good,Continued,,3,3,3,3,3,3,1,3,3,3,3,3,2,3,5,5,5,4,5,3,2,3,2,3
+7/17/2021 14:20:40,Male,Bachelor,Public Sector,40-49 years,Between 5 and 10 years,Yes,Poor,Yes,Yes,Good,Continued,,1,1,1,1,4,2,4,2,2,1,1,1,1,4,4,3,4,4,5,3,1,3,3,2
+7/17/2021 14:26:04,Male,Bachelor,Unemployed,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,2,1,2,3,3,2,1,3,3,2,1,2,,3,5,3,3,2,4,3,3,2,1,2
+7/17/2021 14:30:49,Male,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,1,1,3,3,3,3,2,3,1,3,1,2,3,4,4,2,2,4,2,2,2,3,2,2
+7/17/2021 14:33:37,Male,Diploma,Public Sector,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,1,2,2,2,3,,,,,,,,,,,,,,,,,,,
+7/17/2021 14:38:17,Male,,Unemployed,40-49 years,Between 5 and 10 years,Yes,Poor,Yes,Yes,Good,Continued,,1,1,2,2,1,1,2,1,1,2,1,2,1,5,5,2,1,1,1,1,1,1,1,2
+7/17/2021 14:42:22,Male,Bachelor,Unemployed,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,No,,Non Applicable,,1,1,2,2,1,2,2,3,2,2,1,2,1,4,4,3,4,3,4,2,3,3,3,2
+7/17/2021 14:47:26,Female,Diploma,Unemployed,21-29 years,5 year and below,Yes,Very Poor,Yes,Yes,Good,Continued,,1,1,1,2,1,1,3,3,1,2,1,1,1,4,4,4,1,4,1,1,1,1,1,1
+7/17/2021 14:51:27,Male,Diploma,Public Sector,30-39 years,Between 10 and 15 years,Yes,Poor,Yes,Yes,Very Good,Continued,,1,2,1,4,1,2,2,1,1,3,2,5,2,2,2,4,1,3,1,4,3,3,2,2
+7/17/2021 14:55:51,Female,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,2,2,4,3,3,2,1,1,1,1,1,5,5,5,2,3,1,3,2,2,2,2
+7/17/2021 15:00:27,Female,Diploma,Public Sector,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,2,2,3,3,4,1,1,2,1,2,2,4,2,5,4,3,5,,,,,
+7/17/2021 15:05:04,Female,Diploma,Public Sector,21-29 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Good,Continued,,1,1,1,1,1,1,3,2,1,1,1,1,2,4,1,3,4,3,1,3,3,3,2,2
+7/17/2021 15:09:29,Male,Diploma,Private Sector,30-39 years,Between 5 and 10 years,No,Moderate,Yes,No,,Continued,,4,3,3,3,2,2,3,2,1,1,2,1,2,5,5,4,2,2,2,3,3,3,2,2
+7/17/2021 15:13:51,Male,Bachelor,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,3,2,3,2,2,4,2,1,2,1,2,2,4,4,4,3,3,3,2,3,3,3,2
+7/17/2021 15:18:02,Male,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,5,5,4,5,4,4,2,4,5,5,5,4,,4,1,1,3,3,3,5,5,3,5,4
+7/17/2021 15:22:13,Male,Diploma,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,,,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1
+7/17/2021 15:26:29,Male,Bachelor,Unemployed,21-29 years,5 year and below,Yes,Very Poor,Yes,No,Very Good,Continued,,1,1,1,2,1,1,3,1,1,1,1,1,1,2,1,1,1,4,2,1,2,1,1,2
+7/17/2021 15:35:19,Male,Diploma,Unemployed,21-29 years,,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,5,1,1,1,1,1,2,5,5,5,1,5,1,1,1,1,1,1
+7/17/2021 15:41:21,Male,Diploma,Unemployed,40-49 years,Between 5 and 10 years,Yes,Very Good,Yes,Yes,Good,Continued,,1,1,1,1,1,2,3,1,1,1,1,1,2,1,1,1,3,1,1,1,1,2,1,1
+7/17/2021 15:44:56,Male,High School or below,Private Sector,30-39 years,5 year and below,Yes,Very Poor,Yes,Yes,Good,Continued,,1,1,1,1,1,1,5,1,1,1,1,1,1,5,4,5,1,5,1,3,4,1,1,
+7/17/2021 15:49:08,Female,Diploma,Public Sector,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,1,2,1,1,2,1,1,1,1,1,5,4,4,1,5,1,1,1,1,1,1
+7/17/2021 15:52:29,Male,Bachelor,Public Sector,40-49 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,2,2,3,1,3,2,2,1,3,1,1,1,1,2,2,1,2,1,2,3,2,1,1
+7/17/2021 15:56:30,Male,Bachelor,Public Sector,40-49 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,,Continued,,2,1,2,2,2,2,3,2,2,2,1,3,3,2,2,3,3,3,2,3,3,2,3,2
+7/17/2021 16:01:57,Male,Diploma,Unemployed,21-29 years,5 year and below,Yes,Very Good,Yes,Yes,Good,Continued,,1,2,2,2,2,3,2,2,2,2,2,3,2,1,2,2,2,3,2,2,2,2,2,2
+7/17/2021 16:23:13,Male,Bachelor,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,1,1,1,2,2,1,2,1,1,1,2,2,2,2,2,1,3,2,1,,1
+7/17/2021 16:27:11,Male,High School or below,Unemployed,21-29 years,Between 5 and 10 years,Yes,Poor,No,No,,Continued,,3,3,3,2,3,4,3,3,2,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3
+7/17/2021 16:28:54,Male,Bachelor,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,No,,Continued,,,,,,,,,,3,3,3,,,,,,,,,,,,,
+7/17/2021 16:33:45,Female,Bachelor,Public Sector,40-49 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Good,Continued,,3,1,3,3,2,2,3,2,1,1,1,2,3,4,4,3,2,4,3,2,3,2,2,1
+7/17/2021 16:37:21,Male,Diploma,Public Sector,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Moderate,Continued,,2,3,2,2,2,2,,3,4,,1,2,2,4,3,2,4,2,3,1,3,2,2,4
+7/17/2021 16:40:34,Female,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Moderate,Continued,,1,3,3,5,4,3,3,3,3,3,2,3,3,4,4,2,3,2,3,2,3,3,3,3
+7/17/2021 16:43:46,Male,Diploma,Public Sector,30-39 years,Between 10 and 15 years,No,Moderate,Yes,Yes,Very Poor,Continued,,3,1,1,4,1,,4,2,1,3,1,3,1,1,3,5,1,1,1,1,2,1,1,5
+7/17/2021 16:48:05,Female,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,1,1,3,3,2,2,4,3,3,3,3,3,3,4,4,4,3,4,3,3,3,3,3,2
+7/17/2021 16:51:24,Male,High School or below,Unemployed,30-39 years,,No,Very Poor,No,No,Good,Continued,,1,3,1,1,1,3,1,3,3,3,3,3,5,3,5,4,3,5,1,3,5,5,2,4
+7/17/2021 16:55:16,Male,Diploma,Unemployed,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,3,3,3,4,4,2,5,3,2,2,3,4,1,4,4,4,2,4,4,4,2,2,4,2
+7/18/2021 14:58:03,Male,Bachelor,Private Sector,30-39 years,Between 5 and 10 years,No,Good,Yes,No,,Suspended,,3,5,1,5,5,1,2,3,2,1,1,5,,1,5,5,3,1,1,5,5,1,1,2
+7/18/2021 15:01:32,Male,Diploma,Public Sector,30-39 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,2,1,1,2,1,1,4,2,1,1,1,2,2,4,4,5,4,4,2,1,2,2,2,1
+7/18/2021 15:04:23,Male,Diploma,Public Sector,30-39 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,5,1,1,1,1,1,2,1,4,4,2,2,1,2,1,2,1,2
+7/18/2021 15:07:19,Male,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Poor,Yes,Yes,Good,Continued,,1,2,3,5,1,2,3,2,2,3,2,4,4,3,3,1,2,2,1,2,4,1,2,4
+7/18/2021 15:10:19,Female,Bachelor,Public Sector,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,1,1,2,4,1,4,5,1,1,1,5,1,4,4,1,3,1,5,1,2,1,2,1,1
+7/18/2021 15:13:18,Female,Diploma,Public Sector,21-29 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Good,Continued,,1,1,3,3,1,3,4,1,3,3,3,3,3,5,5,5,3,4,3,3,3,3,3,1
+7/18/2021 15:15:43,Male,Bachelor,Public Sector,50 years and above,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,3,2,1,1,2,1,1,5,,3,1,3,2,1,2,1,4,1
+7/18/2021 15:18:32,Male,Diploma,Public Sector,21-29 years,Between 5 and 10 years,No,Moderate,Yes,Yes,Very Good,Continued,,1,1,2,2,2,2,2,2,1,2,1,2,2,4,4,4,2,1,3,2,2,3,3,2
+7/18/2021 15:26:15,Male,,Public Sector,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Good,Continued,,1,1,2,3,3,3,2,2,1,2,2,2,2,4,4,4,3,2,4,3,2,3,2,2
+7/18/2021 15:29:18,Male,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Poor,Yes,Yes,Very Good,Continued,,1,1,1,,1,1,4,1,1,1,1,1,1,5,5,4,1,5,1,1,1,1,1,1
+7/18/2021 15:32:18,Male,Diploma,Public Sector,21-29 years,Between 10 and 15 years,Yes,Very Poor,Yes,Yes,Very Good,Continued,,1,1,1,5,1,1,4,1,1,1,1,1,1,5,5,5,1,5,5,1,1,1,1,1
+7/18/2021 15:35:13,Male,Bachelor,Private Sector,30-39 years,Between 5 and 10 years,Yes,Very Poor,Yes,Yes,Good,Continued,,3,3,3,3,4,5,2,5,5,5,5,5,4,3,3,3,5,1,5,5,4,5,5,5
+7/18/2021 15:37:45,Male,Diploma,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Poor,Continued,,3,3,4,4,4,4,3,4,4,3,4,4,5,3,3,3,5,3,5,4,5,3,3,5
+7/18/2021 15:40:34,Male,Bachelor,Public Sector,40-49 years,Between 10 and 15 years,Yes,Very Poor,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,5,1,1,1,1,1,1,5,5,5,4,5,4,1,1,1,4,1
+7/18/2021 15:43:00,Male,Bachelor,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,1,2,1,2,1,1,1,2,1,1,2,2,4,1,4,1,1,2,1,2,1
+7/18/2021 15:45:29,Male,Diploma,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,No,No,Good,Continued,,1,2,2,2,2,2,3,2,2,2,2,1,2,2,1,2,2,1,2,2,2,2,2,2
+7/18/2021 15:48:32,Male,Diploma,Public Sector,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,No,,Continued,,1,1,1,3,2,2,4,2,1,1,1,1,1,4,4,4,2,4,3,1,2,2,2,1
+7/18/2021 15:50:55,Male,Bachelor,Public Sector,21-29 years,5 year and below,Yes,Moderate,Yes,No,,Continued,,3,3,4,3,3,3,4,3,2,1,1,2,3,3,3,3,3,3,3,3,3,3,4,4
+7/18/2021 15:53:23,Female,Diploma,Public Sector,30-39 years,Between 10 and 15 years,Yes,Poor,Yes,Yes,Good,Continued,,2,2,2,2,2,2,3,2,2,2,2,2,2,4,4,4,2,3,2,2,2,2,2,2
+7/18/2021 15:55:59,Female,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,2,2,1,1,1,2,1,2,1,2,1,4,3,3,3,3,2,3,3,3,1,1
+7/18/2021 15:59:01,Male,Diploma,Unemployed,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,No,Good,Continued,,1,1,2,3,1,1,3,1,1,2,1,1,2,4,4,4,3,5,5,1,2,1,5,1
+7/18/2021 16:00:02,Female,Diploma,Public Sector,30-39 years,Between 10 and 15 years,Yes,Very Poor,Yes,No,,Non Applicable,,,,,,,,,,,,,,,,,,,,,,,,,
+7/18/2021 16:02:25,Female,Diploma,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,Yes,,Very Good,Continued,,1,2,1,4,4,4,3,2,1,4,1,1,3,5,5,3,4,4,5,3,2,4,1,2
+7/18/2021 16:04:45,Female,Diploma,Public Sector,21-29 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,2,1,4,4,4,3,2,1,4,1,1,3,5,5,3,4,4,5,3,2,4,1,2
+7/18/2021 16:06:49,Female,Diploma,Public Sector,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,4,4,4,4,4,5,1,3,3,4,4,5,,,,,,,,2,3,3,3,3
+7/18/2021 16:09:45,Female,Diploma,Public Sector,21-29 years,5 year and below,Yes,Poor,Yes,Yes,Very Good,Continued,,5,5,5,5,5,2,2,3,4,1,5,3,3,5,5,5,2,3,1,2,2,2,3,3
+7/18/2021 16:12:09,Male,Bachelor,Unemployed,30-39 years,Between 10 and 15 years,Yes,Good,Yes,No,,Continued,,3,1,3,3,1,1,3,3,1,1,1,2,1,1,3,3,1,1,1,1,3,1,1,1
+7/18/2021 16:15:37,Male,High School or below,Private Sector,21-29 years,Between 5 and 10 years,Yes,Good,No,No,Moderate,Continued,,1,1,2,1,2,1,2,1,2,1,1,2,1,1,1,2,1,2,2,2,3,1,3,3
+7/18/2021 16:18:18,Male,Diploma,Unemployed,30-39 years,Between 5 and 10 years,Yes,Poor,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,2,1,1,1,1,1,1,5,5,5,1,5,1,1,1,1,1,1
+7/18/2021 16:20:40,Female,Diploma,Public Sector,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,2,2,2,2,1,2,2,2,1,1,1,2,2,5,4,4,3,4,1,2,2,2,2,1
+7/18/2021 16:23:17,Male,Diploma,Public Sector,30-39 years,5 year and below,Yes,Poor,Yes,Yes,Very Good,Continued,,1,1,2,2,1,2,3,1,1,1,2,1,2,5,3,4,1,5,1,2,2,2,1,1
+7/18/2021 16:25:30,Female,Diploma,Public Sector,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Good,Continued,,4,3,3,3,2,2,4,2,2,3,2,2,3,3,3,1,1,1,4,2,2,1,3,1
+7/18/2021 16:27:51,Male,Diploma,Public Sector,21-29 years,Between 5 and 10 years,No,Moderate,Yes,Yes,Moderate,Continued,,1,1,1,1,1,1,5,1,1,1,1,1,1,5,5,5,1,5,1,1,1,1,1,
+7/18/2021 16:30:24,Male,High School or below,Unemployed,21-29 years,Between 5 and 10 years,Yes,Poor,Yes,Yes,Very Good,Continued,,2,2,3,4,3,3,2,2,4,3,4,3,3,3,3,3,3,3,2,3,3,3,3,3
+7/18/2021 16:33:17,Male,Diploma,Public Sector,30-39 years,,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,1,2,2,4,1,1,1,1,1,1,4,3,4,1,4,1,1,1,1,2,1
+7/18/2021 16:37:53,Male,Diploma,Public Sector,30-39 years,5 year and below,Yes,Very Poor,Yes,Yes,Good,Continued,,1,1,1,1,1,1,2,2,1,1,1,2,2,5,5,5,3,2,1,1,2,2,3,1
+7/18/2021 16:40:18,Male,High School or below,Unemployed,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,2,3,3,2,2,4,5,3,2,2,3,2,3,4,4,3,4,3,3,2,3,1,2
+7/18/2021 16:42:32,Male,High School or below,Unemployed,21-29 years,Between 10 and 15 years,Yes,Very Good,Yes,No,Moderate,Continued,,1,1,1,2,1,2,2,2,1,2,1,1,1,5,5,4,2,5,1,1,1,1,2,1
+7/18/2021 16:46:57,Female,Diploma,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,Yes,Very Good,Continued,,1,3,3,2,1,2,1,1,1,1,1,2,1,4,4,4,4,3,3,4,3,3,1,2
+7/18/2021 16:50:15,Female,Diploma,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,3,3,3,4,3,3,2,3,2,2,2,3,,2,3,2,2,2,3,,,,,
+7/18/2021 16:52:42,Female,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,3,1,1,5,1,1,1,1,1,1,5,5,4,1,2,1,2,1,2,3,2
+7/18/2021 16:55:23,Female,Diploma,Public Sector,21-29 years,5 year and below,Yes,Very Poor,Yes,Yes,Good,Continued,,5,5,5,2,5,5,4,5,5,4,5,5,5,4,4,4,4,1,5,4,3,3,3,4
+7/18/2021 16:57:49,Male,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,2,2,2,3,2,3,4,2,2,3,2,2,2,3,3,4,2,4,3,2,3,3,2,2
+7/18/2021 17:00:22,Female,Bachelor,Public Sector,30-39 years,Between 10 and 15 years,No,Poor,No,Yes,Very Good,Continued,,1,1,1,5,1,1,1,5,1,5,5,1,1,5,2,5,5,5,1,1,1,1,1,1
+7/18/2021 17:02:55,Male,High School or below,Unemployed,21-29 years,Between 10 and 15 years,Yes,Good,No,No,Good,Continued,,4,1,5,1,3,1,4,1,1,2,1,4,1,3,3,4,4,4,3,2,5,3,1,4
+7/18/2021 17:05:16,Male,High School or below,Unemployed,21-29 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,4,2,1,1,1,2,1,2,1,2,1,1,1,2,2,1,2,1,2,1,2,1
+7/18/2021 17:07:38,Male,Diploma,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,2,1,1,2,1,1,3,2,1,2,2,1,1,3,4,5,1,5,1,1,1,1,2,1
+7/18/2021 17:10:05,Male,High School or below,Unemployed,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,4,2,2,4,1,,2,4,2,1,3,1,,5,1,1,1,1,1,1,5,2,4,5
+7/18/2021 17:12:07,Male,Masters,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,2,2,2,,,,,,,,,,,,,,,,
+7/18/2021 17:14:21,Male,High School or below,Unemployed,21-29 years,Between 10 and 15 years,No,Very Good,No,Yes,,Continued,,1,1,4,3,1,1,3,1,1,1,1,1,1,3,3,3,1,4,3,1,1,2,2,2
+7/18/2021 17:58:57,Female,Diploma,Public Sector,21-29 years,Between 5 and 10 years,Yes,Very Poor,Yes,Yes,Good,Continued,,1,1,1,2,1,1,4,2,1,2,1,1,1,4,4,4,3,2,3,1,2,1,3,1
+7/18/2021 18:01:40,Male,Professional Certificate,Unemployed,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,2,1,1,1,2,4,1,1,2,1,3,2,4,5,5,3,4,3,1,1,1,5,1
+7/18/2021 18:04:20,Male,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Very Poor,Yes,Yes,Good,Continued,,1,1,2,2,1,1,5,3,1,1,2,1,1,4,4,3,3,3,3,1,3,2,4,2
+7/18/2021 18:07:15,Female,Diploma,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,2,1,2,1,2,2,4,1,1,2,1,2,2,4,4,3,3,4,3,1,2,2,4,1
+7/18/2021 18:10:09,Female,Bachelor,Unemployed,30-39 years,Between 5 and 10 years,Yes,Poor,Yes,Yes,Good,Continued,,1,1,1,3,2,1,4,1,1,1,2,2,2,4,4,4,3,4,2,2,1,3,4,1
+7/18/2021 18:12:29,Male,Bachelor,Private Sector,21-29 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,1,2,1,2,3,2,4,2,1,2,1,2,2,4,4,4,4,4,3,2,1,3,3,1
+7/18/2021 18:14:54,Female,Diploma,Unemployed,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,2,3,1,1,4,2,1,2,1,2,1,4,4,3,3,4,3,3,3,1,4,2
+7/18/2021 18:17:34,Female,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,2,1,2,1,1,4,1,1,2,1,2,2,4,4,4,3,4,3,2,1,1,4,1
+7/18/2021 18:19:55,Female,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Poor,Continued,,1,2,1,3,1,1,4,2,2,1,1,2,1,4,4,4,3,4,3,2,1,3,4,2
+7/18/2021 18:22:24,Female,High School or below,Public Sector,40-49 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Moderate,Continued,,1,1,2,1,2,2,4,2,2,2,2,2,2,4,4,4,5,4,2,2,1,1,4,2
+7/18/2021 18:24:42,Female,Diploma,Unemployed,21-29 years,Between 10 and 15 years,Yes,Very Poor,Yes,Yes,Good,Continued,,1,1,2,2,1,1,5,2,1,1,2,2,2,4,4,4,3,4,3,,,,,
+7/18/2021 18:26:56,Male,Professional Certificate,Private Sector,40-49 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,2,1,2,1,2,4,2,2,2,2,2,2,4,4,4,3,4,4,2,2,2,4,2
+7/18/2021 18:29:25,Female,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,2,2,1,1,4,2,1,1,1,1,1,4,4,4,2,4,3,,,,,
+7/18/2021 18:31:41,Female,High School or below,Private Sector,30-39 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,2,1,2,2,3,1,4,2,2,2,1,2,1,4,4,3,4,4,5,2,2,2,4,2
+7/18/2021 18:33:55,Male,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,2,1,2,1,1,4,1,1,2,1,2,1,5,5,5,4,3,3,1,1,3,4,1
+7/19/2021 10:07:04,Male,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,5,4,5,5,4,4,5,4,5,5,5,5,4,3,5,3,5,2,5,5,3,5,5,5
+7/19/2021 10:10:41,Male,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,5,5,5,5,5,5,3,5,5,5,1,1,1,1,1,5,1,5,1,1,2,1,1,1
+7/19/2021 10:14:46,Male,Bachelor,Public Sector,21-29 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,1,1,2,2,1,1,5,2,1,2,1,1,2,5,4,4,3,3,2,2,2,2,2,1
+7/19/2021 10:37:45,Female,Professional Certificate,Unemployed,21-29 years,5 year and below,Yes,,Yes,Yes,Very Good,Continued,,1,1,1,2,2,1,1,1,1,2,1,2,1,5,5,2,3,4,1,,,,,
+7/19/2021 10:40:38,Female,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,1,1,5,2,2,1,1,1,2,1,4,4,5,4,3,1,1,1,1,1,1
+7/19/2021 10:46:16,Female,Professional Certificate,Public Sector,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Good,Continued,,2,3,3,4,2,2,4,2,2,2,3,2,2,5,3,4,2,4,1,1,1,3,1,1
+7/19/2021 10:48:56,Female,Professional Certificate,Public Sector,21-29 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Good,Continued,,1,1,1,2,3,2,2,2,1,1,1,2,1,2,2,1,2,3,1,1,2,1,2,1
+7/19/2021 10:51:12,Female,Professional Certificate,Unemployed,21-29 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,5,5,5,5,1,1,5,1,1,1,1,1,1,5,5,1,1,5,1,,,,,
+7/19/2021 10:54:09,Female,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Very Good,No,No,Poor,Continued,,3,3,2,4,3,2,2,2,1,1,3,3,2,4,4,3,,3,3,2,3,1,1,2
+7/19/2021 10:56:49,Female,Professional Certificate,Unemployed,21-29 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,2,1,1,1,1,1,1,1,3,2,2,1,5,1,1,2,1,1,1
+7/19/2021 10:59:28,Female,Professional Certificate,Unemployed,21-29 years,5 year and below,Yes,Very Good,Yes,Yes,Very Good,Continued,,5,1,5,1,1,1,2,1,1,1,1,1,1,5,5,5,1,5,1,1,5,5,1,1
+7/19/2021 11:01:43,Female,Professional Certificate,Unemployed,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,1,1,2,5,1,1,1,1,2,1,4,5,5,3,4,2,2,2,2,1,2
+7/19/2021 11:04:36,Female,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,2,2,1,2,2,3,4,3,1,1,1,2,2,4,4,5,2,3,2,3,3,3,2,2
+7/19/2021 11:06:48,Female,Professional Certificate,Unemployed,21-29 years,Between 10 and 15 years,Yes,Very Poor,Yes,Yes,Very Poor,Continued,,5,5,5,4,5,5,5,5,5,4,5,5,,4,5,4,5,3,5,,,,,
+7/19/2021 11:09:11,Male,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,1,2,1,4,1,1,1,1,2,1,4,4,5,2,2,3,3,3,2,2,2
+7/19/2021 11:11:33,Female,Professional Certificate,Unemployed,21-29 years,,Yes,Very Good,Yes,Yes,Good,Continued,,5,3,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,3,3,,,,,
+7/19/2021 11:14:11,Female,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,2,2,1,1,5,1,1,1,1,2,2,5,5,5,1,1,1,1,1,1,1,1
+7/19/2021 11:16:48,Female,Professional Certificate,Unemployed,21-29 years,Between 10 and 15 years,No,Moderate,Yes,No,Moderate,Continued,,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,1,1,,1,1,1,1,1,1
+7/19/2021 11:19:31,Female,Professional Certificate,Unemployed,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,No,Moderate,Continued,,1,1,1,5,1,1,1,1,1,1,1,1,,5,2,2,1,1,1,1,1,1,1,1
+7/19/2021 11:21:47,Male,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,2,1,1,1,2,2,4,1,1,1,1,2,2,4,4,4,2,4,1,1,2,2,2,2
+7/19/2021 11:24:52,Male,Professional Certificate,Unemployed,30-39 years,Between 10 and 15 years,Yes,Very Good,Yes,No,,Continued,,1,1,1,4,1,1,2,1,1,1,1,1,1,3,3,2,1,3,1,1,3,2,1,1
+7/19/2021 11:27:19,Female,Professional Certificate,Private Sector,21-29 years,Between 5 and 10 years,,Moderate,Yes,Yes,Good,Continued,,5,5,5,5,4,4,3,5,5,5,4,5,4,4,4,4,5,5,5,5,4,4,4,5
+7/19/2021 11:29:52,Male,Masters,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,2,4,1,1,1,1,1,1,4,5,3,1,3,1,1,1,2,1,1
+7/19/2021 11:32:00,Female,Bachelor,Public Sector,40-49 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Moderate,Continued,,1,1,1,1,1,1,4,1,1,1,1,2,2,5,5,5,2,2,2,2,2,2,3,2
+7/19/2021 11:34:28,Female,Masters,Public Sector,40-49 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,2,1,2,2,2,1,1,1,1,1,5,5,5,2,2,1,1,1,2,1,1
+7/19/2021 11:36:46,Female,Masters,Public Sector,30-39 years,5 year and below,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,2,2,1,4,2,1,1,1,2,1,5,3,5,1,5,1,1,1,3,4,1
+7/19/2021 11:50:46,Male,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,2,2,2,3,2,2,4,2,2,3,2,2,2,4,4,4,2,3,2,2,3,2,3,2
+7/19/2021 12:11:55,Male,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,2,2,2,3,2,2,4,2,2,3,2,2,2,4,4,4,2,3,2,2,3,2,3,2
+7/19/2021 12:14:16,Male,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,4,1,1,4,1,1,1,1,1,2,5,1,4,3,3,1,1,1,2,2,1
+7/19/2021 12:17:06,Female,Masters,Public Sector,40-49 years,Between 5 and 10 years,Yes,Poor,Yes,Yes,Very Good,Continued,,1,1,1,3,1,1,4,2,1,2,1,2,2,4,4,4,2,4,1,2,2,2,2,2
+7/19/2021 12:20:05,Female,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,4,1,1,3,2,1,1,1,1,1,5,5,5,3,3,1,1,1,2,1,1
+7/19/2021 12:22:35,Male,Bachelor,Public Sector,40-49 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,2,1,1,5,2,1,2,1,2,2,5,5,4,2,4,1,1,1,1,1,1
+7/19/2021 12:25:08,Male,Masters,Public Sector,50 years and above,5 year and below,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,2,1,1,5,1,1,1,5,1,1,5,5,,1,3,5,3,1,1,1,1
+7/19/2021 12:28:24,Male,Masters,Public Sector,40-49 years,Between 10 and 15 years,Yes,Moderate,,Yes,Good,Continued,,2,1,1,1,3,3,4,2,1,1,1,1,2,4,3,5,4,3,1,3,4,5,4,5
+7/19/2021 12:30:38,Female,Masters,Public Sector,40-49 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,3,1,1,5,1,1,1,1,1,2,4,4,5,3,3,2,2,3,3,2,1
+7/19/2021 12:32:46,Female,Diploma,Unemployed,21-29 years,,No,Good,Yes,No,,Continued,,2,2,2,2,2,2,3,2,1,2,2,2,2,3,3,2,2,3,2,1,2,2,2,2
+7/19/2021 12:35:12,Female,Professional Certificate,Public Sector,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,1,2,2,1,2,2,2,1,1,2,5,1,1,1,1,2,2,1,2,2,1
+7/19/2021 12:37:29,Female,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,2,3,3,3,2,2,2,2,2,4,3,3,2,4,2,3,2,4,2,2,3,2,5,3
+7/19/2021 12:39:50,Female,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Poor,Yes,Yes,Good,Continued,,5,1,3,1,1,1,5,1,1,5,1,3,1,4,1,5,3,3,1,2,2,1,1,1
+7/19/2021 12:42:13,Female,Professional Certificate,Unemployed,21-29 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,2,2,1,1,5,1,1,3,1,1,1,5,5,5,1,5,1,3,3,3,1,1
+7/19/2021 12:44:27,Female,Professional Certificate,Unemployed,21-29 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,2,2,1,1,5,1,1,3,1,1,1,5,5,5,1,5,1,3,3,1,1,1
+7/19/2021 12:46:41,Female,Professional Certificate,Unemployed,21-29 years,,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,4,4,1,1,5,1,1,1,1,4,1,5,5,5,1,5,1,4,4,1,1,1
+7/19/2021 12:49:00,Male,Diploma,Private Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,2,2,3,2,3,2,2,2,2,1,2,1,2,1,2,1,2,3,2,3,3,2,2,1
+7/19/2021 12:51:17,Male,Bachelor,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,2,1,3,2,3,2,3,3,2,2,1,2,3,3,3,1,2,4,2,1,3,4,2,1
+7/19/2021 12:53:48,Male,Bachelor,Unemployed,21-29 years,Between 10 and 15 years,Yes,Moderate,No,No,,Non Applicable,,4,3,3,5,4,4,4,5,2,4,1,4,4,1,2,2,4,3,2,4,4,3,3,4
+7/19/2021 12:56:16,Male,High School or below,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,2,1,3,2,3,2,4,2,1,2,1,3,2,4,4,4,2,3,1,2,3,2,2,2
+7/19/2021 12:58:22,Female,Masters,Public Sector,40-49 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,2,1,4,4,3,3,2,2,2,2,2,2,2,3,3,4,3,2,3,3,3,3
+7/19/2021 13:00:35,Female,High School or below,Private Sector,21-29 years,5 year and below,Yes,Good,Yes,Yes,Very Good,Continued,,2,2,3,3,3,4,3,3,2,1,3,3,3,3,2,3,3,3,2,3,2,3,2,2
+7/19/2021 13:03:17,Male,Bachelor,Unemployed,30-39 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Moderate,Continued,,1,1,2,2,3,3,3,3,2,2,2,2,2,3,3,3,2,4,2,2,2,3,3,2
+7/19/2021 13:05:49,Female,Professional Certificate,Unemployed,30-39 years,Between 5 and 10 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,2,3,3,2,2,4,3,3,2,2,2,2,3,3,3,3,2,2,3,1,1,2,1,1
+7/19/2021 13:08:12,Male,Bachelor,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,2,1,3,3,3,3,1,2,2,2,3,3,3,3,3,4,3,2,3,3,3,3
+7/19/2021 13:10:43,Female,High School or below,Private Sector,21-29 years,Between 5 and 10 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,2,2,1,3,4,3,3,2,2,3,3,3,2,2,2,3,3,3,2,3,3,3,2
+7/19/2021 13:12:49,Female,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,,Moderate,Continued,,3,2,3,2,4,3,3,3,2,3,3,2,2,2,3,3,3,4,3,2,2,3,3,3
+7/19/2021 13:15:15,Male,Bachelor,Private Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,3,2,3,2,3,4,3,3,3,3,3,3,3,4,3,4,3,3,2,3,3,3,3,3
+7/19/2021 13:17:20,Female,Diploma,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,Yes,Very Good,Continued,,2,3,2,2,4,4,4,3,3,3,2,3,3,2,3,3,3,4,1,3,2,4,3,3
+7/19/2021 13:22:30,Male,High School or below,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,2,3,3,3,3,3,3,2,3,3,2,2,3,3,3,3,3,2,4,2,3,3,3,3
+7/19/2021 13:23:37,Female,Professional Certificate,Public Sector,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,No,,Continued,,1,,,,,,,,,,,,,,,,,,,,,,,
+7/19/2021 13:26:22,Male,Professional Certificate,Unemployed,21-29 years,,Yes,Good,Yes,Yes,Very Good,Continued,,4,5,4,3,5,5,4,5,5,3,5,5,4,2,4,2,5,1,4,5,4,4,5,5
+7/19/2021 13:28:52,Female,Professional Certificate,Public Sector,21-29 years,Between 5 and 10 years,Yes,Very Good,Yes,Yes,Good,Continued,,5,5,4,4,5,5,3,1,1,1,1,2,,1,4,2,1,1,1,1,1,1,1,1
+7/19/2021 13:31:10,Female,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Moderate,Continued,,2,1,3,1,2,5,5,2,1,2,3,3,2,3,5,2,2,5,2,4,3,5,2,3
+7/19/2021 13:44:35,Female,Professional Certificate,,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,5,5,5,5,5,5,5,5,5,5,5,5,5,1,1,1,5,4,4,5,4,5,5,5
+7/19/2021 13:47:39,Male,Professional Certificate,Public Sector,21-29 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,5,5,5,5,5,5,2,5,5,5,5,5,5,1,1,1,5,1,5,5,5,5,1,5
+7/19/2021 13:50:04,Female,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,No,Very Good,Continued,,4,1,1,1,1,2,3,2,1,2,1,2,2,2,3,3,2,2,2,2,2,2,2,2
+7/19/2021 13:52:15,Male,Professional Certificate,Unemployed,21-29 years,Between 10 and 15 years,Yes,Good,Yes,No,,Suspended,,4,4,5,5,4,3,1,5,4,4,4,5,,1,2,1,1,1,4,5,5,5,5,4
+7/19/2021 13:53:31,Male,Professional Certificate,Public Sector,21-29 years,5 year and below,Yes,Good,Yes,No,Very Poor,Suspended,,5,5,5,4,4,,,,,,,,,,,,,,,,,,,
+7/19/2021 13:55:44,Male,High School or below,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,4,2,2,4,2,2,4,2,2,2,2,3,2,4,4,4,2,2,1,4,4,4,1,2
+7/19/2021 13:58:01,Female,Professional Certificate,Public Sector,21-29 years,5 year and below,Yes,Poor,Yes,No,Good,Continued,,2,3,3,2,3,3,3,1,1,3,1,3,,1,4,5,1,1,1,1,3,1,1,1
+7/19/2021 14:00:39,Male,Professional Certificate,Unemployed,21-29 years,Between 10 and 15 years,Yes,Good,No,No,Good,Continued,,1,1,1,2,2,1,3,2,1,5,3,3,,3,2,1,3,3,3,3,2,2,2,2
+7/19/2021 14:02:55,Male,Professional Certificate,Unemployed,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,No,,Continued,,1,1,2,1,4,3,1,1,1,1,1,1,1,1,1,1,1,2,1,,,,,
+7/19/2021 14:05:36,Female,Diploma,Public Sector,21-29 years,Between 5 and 10 years,Yes,Good,Yes,No,,Continued,,3,3,2,2,2,3,,4,3,3,3,3,3,,5,,3,,3,3,3,2,2,2
+7/19/2021 15:05:14,Female,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,No,Good,Yes,,,Non Applicable,,3,1,2,2,2,4,3,3,3,2,2,2,2,2,3,4,1,2,2,4,3,2,2,3
+7/19/2021 15:09:13,Male,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,1,1,1,2,1,1,1,1,1,1,4,4,5,2,4,1,1,2,3,2,1
+7/19/2021 15:14:43,Male,Professional Certificate,Unemployed,21-29 years,Between 10 and 15 years,Yes,Very Good,Yes,,Very Good,Continued,,1,1,2,2,1,1,2,1,1,1,1,2,1,5,4,4,1,4,1,1,2,1,1,1
+7/19/2021 15:19:14,Female,Professional Certificate,Public Sector,21-29 years,5 year and below,Yes,Very Poor,Yes,Yes,Very Good,Continued,,1,1,1,3,1,1,5,1,1,1,1,1,1,1,1,5,1,1,1,1,1,4,3,1
+7/19/2021 15:23:20,Female,Professional Certificate,Public Sector,30-39 years,5 year and below,No,Moderate,No,No,,Non Applicable,,1,2,3,4,3,3,3,3,1,1,1,3,2,3,1,3,3,3,2,,,,,
+7/19/2021 15:25:43,Female,Professional Certificate,Unemployed,21-29 years,5 year and below,No,Moderate,No,No,,Continued,,1,3,3,4,3,3,3,3,1,3,1,3,2,3,1,3,3,3,2,3,,,,
+7/19/2021 15:29:10,Male,Professional Certificate,Unemployed,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,5,5,5,5,5,5,3,5,5,5,5,5,,3,1,1,5,2,5,5,5,5,5,5
+7/19/2021 15:32:44,Male,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,5,5,5,1,1,2,2,1,1,1,1,2,1,1,2,3,1,3,1,,,,,
+7/19/2021 15:34:50,Male,Masters,Public Sector,30-39 years,Between 5 and 10 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,4,1,1,1,1,1,1,5,4,5,1,5,1,1,1,2,2,1
+7/19/2021 15:39:53,Female,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,2,2,1,2,3,2,1,1,1,1,1,5,5,4,2,3,1,1,2,3,3,1
+7/19/2021 15:43:06,Male,Masters,Public Sector,40-49 years,Between 10 and 15 years,Yes,Poor,Yes,Yes,Good,Continued,,1,3,2,2,3,3,3,3,2,1,1,2,,3,3,4,2,2,1,2,1,3,2,3
+7/19/2021 15:45:31,Female,Bachelor,Public Sector,21-29 years,5 year and below,No,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,1,4,4,5,3,1,1,1,1,3,5,5,5,1,5,2,,,,,
+7/19/2021 15:48:37,Male,Professional Certificate,Private Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,1,2,1,2,1,3,4,3,2,2,2,2,1,4,4,4,2,4,1,2,1,2,4,3
+7/19/2021 15:52:06,Female,Diploma,Unemployed,21-29 years,5 year and below,Yes,Very Good,Yes,Yes,Very Good,Continued,,2,2,2,3,1,1,4,2,1,1,1,1,1,5,5,4,4,3,4,3,1,1,3,1
+7/19/2021 15:55:13,Female,High School or below,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,2,1,2,1,1,4,1,1,1,1,1,1,4,1,4,2,4,1,1,2,1,2,1
+7/19/2021 16:00:28,Male,High School or below,Private Sector,30-39 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,2,1,3,3,2,2,4,2,2,1,2,1,1,4,4,4,2,4,1,2,1,2,4,1
+7/19/2021 16:03:20,Male,Diploma,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,2,1,1,4,1,1,2,1,2,1,5,5,5,2,3,3,1,2,2,4,1
+7/19/2021 16:06:01,Female,Masters,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,3,2,1,2,1,1,4,2,1,2,1,2,2,4,4,3,2,4,1,1,2,1,1,2
+7/19/2021 16:08:25,Female,Diploma,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,1,2,2,3,3,2,4,1,1,2,1,2,1,5,4,4,2,5,2,2,1,2,1,1
+7/19/2021 16:10:54,Male,High School or below,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,,Good,Continued,,1,1,2,1,2,2,5,2,1,2,2,1,1,5,4,5,2,5,2,1,1,1,5,1
+7/19/2021 16:13:14,Male,Bachelor,Public Sector,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,3,1,1,5,2,1,3,1,3,2,5,4,4,4,3,4,1,3,2,4,1
+7/19/2021 16:24:19,Female,Professional Certificate,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,3,1,1,5,1,1,3,1,2,1,5,5,5,3,3,4,3,3,2,5,1
+7/19/2021 16:26:47,Female,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,2,2,1,1,5,1,2,2,2,1,2,5,5,4,1,4,1,2,1,2,4,2
+7/19/2021 16:29:07,Female,Diploma,Unemployed,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,3,1,1,5,1,1,2,1,2,1,5,5,5,3,3,3,2,3,5,5,1
+7/19/2021 16:31:21,Female,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,2,1,2,1,1,4,1,1,2,1,1,2,4,5,4,1,5,1,1,1,2,4,1
+7/19/2021 16:33:45,Male,Bachelor,Unemployed,30-39 years,5 year and below,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,3,1,1,4,2,1,2,1,3,1,5,5,5,3,4,3,1,2,1,4,2
+7/19/2021 16:35:54,Male,Diploma,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,1,1,2,2,1,1,5,2,1,2,1,1,1,4,4,4,1,4,1,2,2,1,4,1
+7/19/2021 16:38:35,Male,Diploma,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,2,1,1,4,1,2,2,1,2,1,4,4,4,1,5,1,1,1,2,4,1
+7/19/2021 16:40:46,Male,Diploma,Unemployed,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,2,1,1,4,1,1,3,1,2,1,5,5,5,2,3,3,1,1,2,4,1
+7/19/2021 16:42:56,Female,Bachelor,Public Sector,21-29 years,5 year and below,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,2,2,1,1,4,2,1,3,1,2,1,5,5,5,3,3,3,1,1,2,4,1
+7/19/2021 16:45:19,Female,Diploma,Unemployed,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,2,1,1,4,1,1,2,1,2,1,4,4,5,2,3,3,2,1,2,4,1
+7/19/2021 16:47:33,Male,Bachelor,Public Sector,40-49 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,2,1,1,4,1,1,3,2,1,1,4,4,4,3,3,3,1,1,2,3,1
+7/19/2021 16:49:40,Male,Diploma,Public Sector,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,2,1,1,4,2,1,2,1,2,1,4,4,4,3,4,3,2,2,2,2,1
+7/19/2021 16:52:01,Female,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,2,1,2,1,2,5,2,1,2,1,2,2,4,4,4,3,4,4,2,2,2,2,1
+7/19/2021 16:54:30,Male,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,3,1,1,5,1,3,3,2,1,1,1,1,4,2,5,,3,2,5,1,3,3,5,1
+7/19/2021 16:56:38,Male,Masters,Public Sector,50 years and above,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,5,1,1,4,1,1,2,2,1,1,4,4,4,3,3,3,1,2,1,2,1
+7/19/2021 16:58:34,Female,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,5,1,,,,,,,,1,3,4,3,4,3,3,1,2,1,2,1
+7/19/2021 17:00:31,Female,Diploma,Public Sector,21-29 years,5 year and below,Yes,Good,No,Yes,Good,Continued,,1,1,1,4,1,1,4,1,1,1,1,3,,,,,,,,3,2,2,1,1
+7/19/2021 17:02:55,Male,Masters,Public Sector,50 years and above,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,1,1,1,1,3,3,3,2,3,1,3,3,3,5,3,5,2,2,2,3,3
+7/19/2021 17:10:51,Male,Professional Certificate,Public Sector,30-39 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Good,Continued,,1,1,2,2,2,2,4,1,1,2,1,1,1,4,2,3,1,4,1,2,1,2,1,2
+7/19/2021 17:15:58,Female,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Very Good,Yes,Yes,Good,Continued,,1,1,1,1,3,3,5,3,3,3,1,3,,5,5,5,3,3,2,3,3,2,3,1
+7/19/2021 17:20:28,Male,Bachelor,Public Sector,40-49 years,,,,,,,,,1,1,1,5,3,3,5,3,1,1,1,3,,5,5,3,3,2,5,1,1,3,5,1
+7/19/2021 17:24:13,Female,Bachelor,Public Sector,40-49 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,5,1,1,5,3,1,3,1,3,1,5,5,5,3,2,2,3,1,1,1,1
+7/19/2021 17:26:31,Male,Bachelor,Public Sector,40-49 years,Between 5 and 10 years,,Good,,Yes,Good,Continued,,1,1,1,5,1,3,5,2,1,1,1,1,3,5,5,5,2,3,2,1,1,3,5,1
+7/19/2021 17:29:00,Male,Bachelor,Public Sector,40-49 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,5,1,1,1,1,1,1,2,4,4,4,5,3,3,1,1,1,1
+7/19/2021 17:31:11,Female,Bachelor,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,1,1,2,5,2,3,1,2,2,1,3,5,3,2,2,3,2,2,2,3,1
+7/19/2021 17:33:20,Male,Diploma,Public Sector,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,2,1,1,4,1,1,2,1,2,1,4,4,4,3,3,3,1,2,1,2,1
+7/19/2021 17:35:34,Male,Bachelor,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,5,1,1,1,1,1,1,2,4,4,3,5,3,3,1,1,1,1
+7/19/2021 17:37:39,Male,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,5,1,1,3,1,1,2,2,3,4,3,3,2,2,2,2,1,1
+7/19/2021 17:40:05,Female,Diploma,Public Sector,30-39 years,Between 10 and 15 years,,Good,Yes,Yes,Good,Continued,,1,1,1,5,1,1,1,1,1,1,1,1,3,5,3,5,1,3,5,3,1,1,1,1
+7/20/2021 12:54:57,Female,Bachelor,Public Sector,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Good,Continued,,1,1,1,3,2,3,4,2,1,1,1,2,2,3,3,4,2,3,1,2,3,3,3,1
+7/20/2021 16:21:32,Male,Masters,Public Sector,40-49 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,3,4,4,3,4,4,3,3,4,3,4,4,5,4,3,2,3,3,2,3,3,3,3,3
+7/20/2021 16:34:24,Male,High School or below,Unemployed,21-29 years,5 year and below,Yes,Moderate,Yes,No,,Non Applicable,,5,4,4,1,3,3,3,3,4,3,1,3,3,1,1,1,3,1,1,3,3,3,3,3
+7/20/2021 16:36:27,Female,Diploma,Public Sector,30-39 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+7/20/2021 16:38:40,Female,Bachelor,Public Sector,21-29 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,5,1,1,1,1,1,1,5,5,5,1,2,1,1,1,1,2,1
+7/20/2021 16:44:40,Female,Diploma,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,Yes,Moderate,Continued,,3,2,3,2,2,2,2,2,3,2,2,2,2,3,3,3,1,2,2,2,2,2,3,2
+7/20/2021 16:46:58,Male,High School or below,Unemployed,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Moderate,Non Applicable,,3,3,3,3,3,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+7/20/2021 16:47:39,Female,Diploma,Public Sector,21-29 years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7/20/2021 16:49:54,Female,Diploma,Unemployed,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,5,1,1,3,1,1,1,5,5,5,1,5,1,1,3,3,1,1
+7/20/2021 16:51:55,Female,Diploma,Unemployed,21-29 years,5 year and below,Yes,Very Good,Yes,Yes,Moderate,Continued,,1,1,1,1,1,1,5,1,1,1,1,3,3,5,5,5,1,5,1,1,1,1,1,3
+7/20/2021 16:53:47,Female,Bachelor,Unemployed,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Moderate,Continued,,1,1,1,2,2,2,4,2,2,2,2,2,2,4,4,4,2,4,2,2,2,2,4,2
+7/20/2021 16:55:45,Male,Diploma,Unemployed,21-29 years,5 year and below,Yes,Poor,Yes,Yes,Very Good,Continued,,1,1,2,2,1,1,4,2,1,2,1,1,1,2,2,2,2,3,1,2,2,3,2,1
+7/20/2021 16:57:46,Male,Diploma,Unemployed,21-29 years,5 year and below,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,2,2,1,1,4,2,1,2,1,1,2,5,3,2,1,4,1,1,1,2,1,2
+7/20/2021 16:59:43,Female,Diploma,Unemployed,21-29 years,5 year and below,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,2,2,1,1,4,2,1,2,1,2,2,5,3,2,1,4,1,1,1,2,1,2
+7/20/2021 17:01:47,Female,Diploma,Unemployed,21-29 years,,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,1,5,1,3,1,1,5,1,1,1,1,1,1,1,1,1,1,2,1,1,1
+7/20/2021 17:04:03,Female,Bachelor,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,1,2,2,3,1,1,1,1,1,1,4,4,4,2,4,1,1,1,1,2,1
+7/20/2021 17:06:45,Female,Bachelor,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,No,,Continued,,2,1,1,1,1,1,3,2,1,1,1,1,2,4,4,4,3,4,2,2,2,2,1,2
+7/20/2021 17:09:17,Female,Bachelor,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,No,,Continued,,2,1,1,1,1,1,3,2,1,1,1,1,2,4,4,4,3,4,2,2,2,2,1,2
+7/20/2021 17:11:23,Female,High School or below,Unemployed,21-29 years,,Yes,Very Good,No,No,Good,,,2,1,1,1,2,1,1,1,1,1,1,1,1,1,2,1,2,1,1,2,1,1,1,1
+7/20/2021 17:18:06,Female,High School or below,Unemployed,21-29 years,,Yes,Good,No,Yes,Very Good,Continued,,1,1,1,2,1,1,1,1,1,1,1,1,1,1,2,1,2,1,1,2,1,1,1,2
+7/20/2021 17:19:22,Female,High School or below,Unemployed,21-29 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,,,,,,,,,,,,1,1,1,,,,,,,,,,,,,
+7/20/2021 17:22:20,Female,High School or below,Unemployed,21-29 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,4,1,1,2,2,2,2,2,2,2,2,2,2,2,2,4,2,4,2,2,2
+7/20/2021 17:24:28,Male,High School or below,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,No,,Continued,,1,1,,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,
+7/20/2021 17:26:37,Male,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,2,3,2,1,3,2,1,1,1,1,2,3,3,1,1,2,2,2,2,2,2,2
+7/20/2021 17:28:45,Male,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,,,,,,2,1,3,2,3,3,1,2,3,3,2,2,3,2,2,1,2,3,3,1,2,2,4,4
+7/20/2021 17:31:01,Female,Diploma,Private Sector,21-29 years,Between 5 and 10 years,No,Good,,Yes,Good,Continued,,2,2,4,3,3,2,2,3,3,2,3,3,3,3,3,3,3,2,3,3,2,2,2,3
+7/20/2021 17:33:08,Male,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,2,2,2,3,2,2,3,2,2,1,1,1,1,3,3,2,1,2,1,2,2,2,2,2
+7/20/2021 17:34:43,Female,Masters,Public Sector,30-39 years,,Yes,Good,Yes,No,Good,Continued,,3,2,2,3,3,2,1,3,3,2,1,3,,,,,,,,,,,,
+7/20/2021 17:36:53,Male,PhD,Public Sector,30-39 years,,No,Good,Yes,Yes,Good,Continued,,2,1,2,3,2,4,2,1,2,2,1,2,4,3,4,3,3,2,3,2,1,2,2,3
+7/20/2021 17:39:06,Male,Diploma,Private Sector,40-49 years,,Yes,Very Poor,Yes,Yes,Good,Continued,,2,4,2,4,3,3,2,4,4,4,2,3,5,3,2,2,2,2,3,3,2,3,1,2
+7/20/2021 17:41:10,Male,PhD,Private Sector,40-49 years,,Yes,Good,,Yes,Good,Continued,,3,2,2,2,2,2,4,2,2,2,3,2,2,1,3,3,2,1,1,2,2,3,3,3
+7/20/2021 17:43:07,Male,Masters,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Moderate,Continued,,1,1,1,2,1,2,2,1,1,1,1,1,2,3,3,2,2,2,1,2,2,2,2,2
+7/20/2021 17:49:51,Female,High School or below,Unemployed,40-49 years,5 year and below,Yes,Moderate,Yes,Yes,Good,Continued,,1,2,2,2,1,2,5,2,2,2,2,2,2,5,5,3,2,3,1,2,2,2,1,2
+7/20/2021 18:23:41,Female,Diploma,Unemployed,30-39 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,1,2,2,2,2,1,5,2,2,2,2,2,2,5,5,4,2,3,1,2,2,2,5,2
+7/20/2021 18:25:53,Male,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,4,1,1,1,1,1,2,1,1,1,1,1,1,4,2,2,2,2,1,2,2,2,1,1
+7/20/2021 18:30:59,Male,Professional Certificate,Private Sector,30-39 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,1,1,2,2,2,2,2,2,2,2,1,1,2,5,5,4,3,3,1,2,2,2,5,5
+7/20/2021 18:38:44,Female,High School or below,Unemployed,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Moderate,Continued,,2,2,2,3,2,2,2,3,2,2,1,1,2,5,5,3,2,3,1,1,1,1,1,1
+7/20/2021 18:41:42,Female,,Private Sector,50 years and above,Between 5 and 10 years,No,Poor,No,No,,Continued,,4,3,2,4,3,3,3,2,3,4,4,2,,2,1,3,3,4,4,3,2,2,4,4
+7/20/2021 18:43:25,Male,Bachelor,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,2,1,1,3,1,1,1,1,2,1,5,5,4,2,3,1,1,1,2,1,1
+7/20/2021 18:45:06,Male,Bachelor,Unemployed,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Good,Continued,,1,1,1,3,1,2,3,2,1,2,2,1,2,5,5,5,1,,1,1,2,1,1,1
+7/20/2021 18:46:30,Male,Bachelor,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,2,1,1,3,2,1,1,1,2,1,5,5,4,3,4,1,1,1,2,2,1
+7/20/2021 18:54:11,Male,Bachelor,Private Sector,30-39 years,Between 5 and 10 years,Yes,Very Poor,Yes,Yes,Good,Continued,,4,4,4,4,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,,4
+7/20/2021 18:54:42,Male,Bachelor,Private Sector,30-39 years,5 year and below,No,Moderate,Yes,No,Moderate,Non Applicable,,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,2,2,3
+7/20/2021 19:09:51,Female,Bachelor,Public Sector,30-39 years,5 year and below,Yes,Moderate,Yes,Yes,Good,Continued,,3,1,1,3,5,1,5,5,5,2,5,3,3,3,3,2,3,1,3,3,4,4,3,3
+7/20/2021 19:10:02,Female,High School or below,Unemployed,30-39 years,5 year and below,No,Very Poor,Yes,Yes,Very Good,Continued,,1,1,1,3,2,2,1,2,1,1,1,1,1,5,4,1,2,2,2,1,1,2,2,1
+7/20/2021 19:11:03,Female,High School or below,Unemployed,21-29 years,5 year and below,Yes,Good,No,No,,Continued,,4,4,3,4,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+7/20/2021 19:11:42,Male,Diploma,Private Sector,40-49 years,5 year and below,Yes,Very Poor,Yes,Yes,Good,Continued,,2,3,3,5,3,3,1,3,1,1,1,2,1,2,4,4,1,4,2,2,1,3,2,3
+7/20/2021 19:13:18,Male,Bachelor,Unemployed,21-29 years,Between 5 and 10 years,Yes,Very Poor,Yes,Yes,Good,Continued,,1,1,1,3,1,2,1,1,1,1,1,2,2,5,5,4,2,4,3,1,1,3,2,2
+7/20/2021 19:14:52,Male,Masters,Public Sector,30-39 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,3,1,1,2,1,1,1,1,1,1,5,,,1,5,1,1,1,1,2,1
+7/20/2021 19:17:59,Female,Masters,Unemployed,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Moderate,Continued,,4,4,4,3,4,4,4,3,3,,3,3,4,2,2,2,3,3,3,3,3,3,3,4
+7/20/2021 19:18:30,Male,Masters,Public Sector,30-39 years,Between 10 and 15 years,No,Moderate,No,No,,Non Applicable,,,,,,,,,,,,,,,,,,,,,,,,,
+7/20/2021 19:23:09,Male,Masters,Public Sector,30-39 years,Between 10 and 15 years,No,Very Poor,Yes,Yes,Good,Continued,,4,4,4,4,4,4,3,4,4,4,4,4,4,1,1,5,4,5,4,4,4,4,4,5
+7/20/2021 19:26:42,,,,,,,,,,,,,1,1,1,3,1,1,2,1,1,1,1,1,1,5,5,5,1,5,1,1,1,1,2,1
+7/20/2021 19:27:40,Male,Bachelor,Public Sector,30-39 years,5 year and below,Yes,Good,Yes,No,,Continued,Option 1,1,2,2,1,1,4,5,1,1,1,1,2,2,5,5,5,5,1,2,1,2,4,5,3
+7/20/2021 19:28:33,Male,Bachelor,Unemployed,21-29 years,Between 5 and 10 years,Yes,Poor,Yes,Yes,Poor,Non Applicable,,4,3,4,4,4,3,1,4,2,4,2,3,4,4,3,3,4,3,3,4,2,2,2,4
+7/20/2021 19:28:33,Female,Masters,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,5,5,5,4,4,4,1,4,5,4,5,5,4,2,2,2,3,4,4,4,4,4,5,5
+7/20/2021 19:30:14,Female,Diploma,Unemployed,30-39 years,Between 5 and 10 years,No,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,2,1,1,3,1,1,3,2,2,1,3,2,3,2,2,1,1,3,3,3,2
+7/20/2021 19:31:33,Female,Diploma,Public Sector,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Moderate,Continued,,2,2,2,1,2,3,1,2,2,2,2,2,2,2,3,3,2,3,2,2,2,2,2,1
+7/20/2021 19:31:45,Male,Bachelor,Public Sector,30-39 years,5 year and below,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,2,1,1,4,1,1,1,1,2,1,4,1,2,2,2,2,2,3,2,2,2
+7/20/2021 19:33:08,Male,Bachelor,Unemployed,21-29 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,5,1,5,5,5,5,4,2,2,2,5,3,5,4,4,4,5,4
+7/20/2021 19:33:22,Male,Masters,Private Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,1,1,3,4,1,1,1,1,2,2,4,1,4,2,2,1,2,2,2,2,1
+7/20/2021 19:35:01,Female,High School or below,Public Sector,21-29 years,,Yes,Good,Yes,Yes,Very Good,Continued,,,,,,1,1,1,1,1,,,,,,,,,,,,,,,4
+7/20/2021 19:36:36,Female,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,2,2,1,2,5,1,1,1,1,3,2,3,4,3,2,2,3,2,2,2,3,2
+7/20/2021 19:39:05,Male,High School or below,Unemployed,21-29 years,5 year and below,No,Moderate,Yes,Yes,Moderate,Continued,,1,1,1,1,1,1,3,1,1,2,1,2,1,3,3,3,2,2,2,2,2,2,3,2
+7/20/2021 19:39:18,Male,Diploma,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,No,,Continued,Option 1,2,2,1,2,2,1,3,2,2,3,1,1,1,2,2,3,2,3,2,1,2,2,1,2
+7/20/2021 19:41:24,Male,High School or below,Unemployed,21-29 years,5 year and below,No,Moderate,Yes,Yes,Moderate,Continued,,1,1,1,1,1,1,3,1,1,2,1,2,1,3,3,3,2,2,2,2,2,2,3,2
+7/20/2021 19:43:02,Female,Diploma,Public Sector,21-29 years,5 year and below,Yes,Very Good,Yes,Yes,,Continued,,5,5,3,5,5,5,4,4,5,4,5,4,4,5,4,4,4,5,5,5,5,4,5,5
+7/20/2021 19:57:09,Male,Bachelor,Public Sector,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,3,2,1,4,1,1,1,1,1,1,3,3,5,1,5,1,1,1,3,3,1
+7/20/2021 20:10:10,Female,Bachelor,Unemployed,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,No,,Continued,,,,,,,,,,,,,,,,,,,,,,,,,
+7/20/2021 20:24:13,Female,Masters,Unemployed,21-29 years,5 year and below,Yes,Moderate,No,No,,Non Applicable,,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+7/20/2021 20:25:38,Female,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,4,1,1,1,1,1,1,5,4,4,2,4,1,1,1,1,1,1
+7/20/2021 20:35:27,Female,Diploma,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,2,1,1,3,1,3,3,3,2,2,1,1,1,4,5,5,1,5,1,1,1,1,1,1
+7/20/2021 20:38:51,Male,Bachelor,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,No,No,Good,Continued,Option 1,,,,,,,,,,,,,,,,,,,,,,,4,5
+7/20/2021 20:44:02,Female,Bachelor,Unemployed,21-29 years,Between 10 and 15 years,Yes,Very Poor,Yes,Yes,Moderate,Continued,,1,1,1,2,,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,2
+7/20/2021 20:44:23,Female,Bachelor,Public Sector,30-39 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Moderate,Continued,,2,2,2,3,2,2,5,2,1,1,1,2,4,3,5,4,5,3,5,4,5,4,3,3
+7/20/2021 20:45:16,Female,Bachelor,Unemployed,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Good,Continued,,3,2,3,4,1,1,5,1,1,1,1,1,2,4,2,3,1,5,5,3,1,3,2,2
+7/20/2021 20:47:03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7/20/2021 20:48:22,Male,Masters,Private Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Moderate,Continued,Option 1,2,2,2,2,2,2,3,2,2,2,2,3,3,3,3,4,4,4,3,3,2,3,2,2
+7/20/2021 20:58:40,Male,Bachelor,Unemployed,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Moderate,Continued,Option 1,1,1,1,2,1,1,5,1,1,1,1,1,1,4,3,5,1,5,1,1,3,3,1,1
+7/20/2021 21:06:35,Female,Professional Certificate,Public Sector,21-29 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Poor,Continued,,1,1,1,2,2,2,2,2,2,2,2,2,2,5,3,5,1,3,1,2,1,2,2,2
+7/20/2021 21:06:42,Female,Bachelor,Unemployed,21-29 years,Between 5 and 10 years,Yes,Very Poor,Yes,Yes,Very Good,Continued,Option 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+7/20/2021 21:08:10,Male,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,2,3,2,1,1,2,1,2,2,1,,2,2,2,1,1,2,1,1,,1,2,1,
+7/20/2021 21:25:55,Female,Bachelor,Unemployed,21-29 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,2,2,3,2,2,2,4,2,3,2,2,3,3,4,4,3,2,4,2,2,2,2,,3
+7/20/2021 21:28:15,Male,Masters,Private Sector,21-29 years,,No,Poor,Yes,No,,Continued,,,,,,,,,,,,,,,,,,,,,,,,,
+7/20/2021 21:33:23,Female,Bachelor,Public Sector,21-29 years,,No,Good,Yes,Yes,Good,Continued,,4,4,4,4,4,4,1,4,4,4,4,4,4,3,3,3,4,3,4,4,3,3,3,4
+7/20/2021 21:38:26,Male,Diploma,Private Sector,30-39 years,5 year and below,No,Moderate,Yes,No,,Continued,Option 1,1,1,2,2,2,1,4,1,1,2,2,2,1,3,2,4,1,3,1,1,1,1,1,2
+7/20/2021 21:44:10,Female,Bachelor,Public Sector,21-29 years,5 year and below,No,Very Poor,Yes,No,Good,Continued,,2,2,2,2,3,2,2,2,2,4,2,,,,,,,,,,,,,
+7/20/2021 21:46:19,Female,Bachelor,Private Sector,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,No,Good,Continued,Option 1,1,1,2,2,1,1,4,1,1,2,1,2,2,2,1,4,2,1,1,2,2,3,3,2
+7/20/2021 22:12:47,Male,Diploma,Private Sector,30-39 years,5 year and below,No,Very Good,Yes,No,,Continued,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1
+7/20/2021 22:17:46,Male,Diploma,Private Sector,30-39 years,5 year and below,No,Very Good,No,No,Very Good,Continued,,1,1,1,1,1,2,3,1,1,1,1,1,1,5,5,5,2,3,3,1,1,1,1,1
+7/20/2021 22:18:37,Male,Bachelor,Unemployed,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Moderate,Continued,Option 1,5,5,5,3,5,5,1,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4
+7/20/2021 22:32:46,Male,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,Option 1,1,1,1,2,1,2,5,1,1,1,1,1,1,2,2,4,1,4,1,1,1,1,3,2
+7/20/2021 22:32:47,Male,Masters,Public Sector,30-39 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,4,1,1,1,1,1,1,5,5,5,1,4,1,1,1,1,1,1
+7/20/2021 22:36:05,Male,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Very Good,Yes,Yes,Very Good,Continued,Option 1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1
+7/20/2021 22:37:44,Male,Bachelor,Public Sector,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,Option 1,4,4,4,4,4,4,4,4,4,4,4,4,4,,4,4,4,4,4,3,2,3,4,4
+7/20/2021 22:53:37,Male,Diploma,Public Sector,21-29 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,Option 1,4,5,4,3,5,4,1,4,5,5,5,5,4,1,4,1,4,1,5,5,4,1,5,4
+7/20/2021 23:16:29,Male,Bachelor,Unemployed,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Good,Continued,Option 1,4,4,4,3,4,4,4,4,4,4,5,4,4,3,4,4,4,3,4,3,3,3,3,4
+7/20/2021 23:18:56,Male,Masters,Public Sector,30-39 years,Between 10 and 15 years,Yes,Poor,Yes,Yes,Very Good,Continued,Option 1,1,1,1,4,1,1,5,1,1,1,1,1,1,5,5,5,2,4,1,1,3,1,1,1
+7/20/2021 23:22:16,Male,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Poor,Yes,Yes,Very Good,Continued,,3,3,3,3,3,3,4,3,3,3,3,3,3,4,4,4,3,4,3,3,3,3,3,3
+7/20/2021 23:31:48,Female,Masters,Public Sector,30-39 years,Between 10 and 15 years,Yes,Poor,Yes,Yes,Good,Continued,,1,1,1,3,2,2,5,2,1,3,1,3,3,5,4,4,3,3,3,3,2,3,3,3
+7/20/2021 23:33:13,Male,Masters,Private Sector,40-49 years,Between 10 and 15 years,Yes,Poor,Yes,Yes,Good,Continued,Option 1,1,1,1,3,1,1,1,3,,1,1,1,1,,3,1,2,3,,3,3,1,1,2
+7/20/2021 23:42:19,Male,Masters,Public Sector,40-49 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Good,Continued,,2,2,2,2,3,3,3,2,1,2,2,2,2,3,4,2,3,2,2,2,2,2,2,1
+7/21/2021 0:27:57,Male,Masters,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,2,1,3,2,1,3,2,1,1,2,1,1,4,5,5,1,4,1,2,2,2,2,1
+7/21/2021 0:35:52,Female,Masters,Unemployed,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,5,5,4,4,5,5,2,5,5,5,5,5,5,2,4,4,5,2,4,5,4,4,3,5
+7/21/2021 0:59:15,Male,Diploma,Public Sector,21-29 years,5 year and below,Yes,Good,Yes,Yes,Very Good,Continued,,5,5,5,5,5,5,4,5,5,5,5,5,5,2,4,2,5,1,5,5,5,5,5,5
+7/21/2021 1:08:16,Female,Masters,Unemployed,30-39 years,Between 5 and 10 years,,Moderate,Yes,Yes,Very Good,Continued,Option 1,1,1,1,3,1,1,4,1,1,5,1,1,1,4,3,5,1,5,1,1,1,5,4,1
+7/21/2021 3:56:49,Male,Bachelor,Public Sector,30-39 years,5 year and below,No,Moderate,Yes,Yes,Good,Continued,,1,1,1,,2,2,4,2,1,1,1,2,2,4,4,4,3,3,2,3,3,3,3,3
+7/21/2021 5:48:08,Male,Bachelor,Private Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,No,,,,5,5,5,5,5,5,3,5,5,4,5,4,4,3,5,4,4,3,4,4,4,3,3,3
+7/21/2021 6:17:15,Female,Bachelor,Public Sector,30-39 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Good,Continued,Option 1,4,4,4,4,4,4,3,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,4,4
+7/21/2021 6:30:05,Male,Bachelor,Public Sector,30-39 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Very Good,Continued,Option 1,1,1,1,2,2,2,5,1,1,1,2,1,1,5,4,5,1,4,1,1,1,2,4,1
+7/21/2021 8:20:10,Female,Bachelor,Unemployed,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Good,Continued,,1,1,2,3,1,1,3,2,2,2,2,2,,4,1,4,3,3,1,1,2,2,2,2
+7/21/2021 9:31:24,Male,Bachelor,Private Sector,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,4,1,1,1,1,1,1,5,5,5,1,5,1,1,1,1,1,1
+7/21/2021 9:44:35,Female,Bachelor,Private Sector,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Very Good,Continued,Option 1,5,5,5,5,5,5,3,5,5,5,5,5,5,4,4,4,5,3,5,5,5,5,5,5
+7/21/2021 10:07:59,Male,Masters,Private Sector,30-39 years,,No,Poor,Yes,Yes,Moderate,Continued,Option 1,2,1,2,3,3,4,3,3,1,2,1,2,1,5,5,5,4,2,5,3,3,3,1,2
+7/21/2021 10:14:36,Male,Masters,Private Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,Option 1,1,1,1,1,1,1,2,1,1,1,1,1,2,1,2,2,2,2,1,1,1,3,3,2
+7/21/2021 10:23:32,Male,Bachelor,Public Sector,30-39 years,Between 10 and 15 years,No,Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,5,1,1,1,1,1,1,5,5,1,2,2,2,1,1,1,1,1
+7/21/2021 11:41:46,Female,Professional Certificate,Public Sector,40-49 years,Between 10 and 15 years,Yes,Very Good,No,Yes,Very Good,Continued,,1,1,1,1,1,1,5,1,1,1,1,1,1,5,5,5,1,5,1,1,1,1,1,1
+7/21/2021 13:08:42,Female,Bachelor,Private Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Moderate,Continued,,1,2,2,2,2,2,4,2,2,2,2,2,2,4,4,3,2,3,2,2,2,2,2,2
+7/21/2021 13:16:44,Female,Bachelor,Public Sector,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,Option 1,2,2,2,2,3,2,4,2,1,2,1,2,2,4,3,4,3,4,2,3,3,4,3,3
+7/21/2021 13:44:41,Male,Masters,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,Option 1,1,1,2,3,3,1,2,2,2,1,5,2,3,2,4,2,3,2,,2,3,2,2,1
+7/21/2021 13:53:35,Female,Professional Certificate,Private Sector,50 years and above,Between 10 and 15 years,No,Good,Yes,No,,Continued,,1,1,2,1,1,1,2,2,2,2,1,2,2,5,4,4,2,5,4,2,3,3,2,2
+7/21/2021 14:46:38,Male,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,1,1,1,1,1,1,5,1,1,1,1,1,1,5,4,5,2,4,3,2,2,2,2,1
+7/21/2021 16:07:42,Male,Masters,Public Sector,30-39 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Good,Continued,,5,5,5,3,4,5,2,4,5,4,5,4,4,1,1,1,4,2,4,4,4,4,4,5
+7/21/2021 16:51:24,Female,Professional Certificate,Private Sector,30-39 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Good,Continued,,2,1,1,1,1,1,,1,1,2,1,2,2,5,5,5,2,4,3,2,2,2,2,2
+7/21/2021 17:05:50,Female,Bachelor,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,5,5,5,4,4,5,2,5,5,3,5,4,5,4,4,2,5,1,5,5,4,4,2,5
+7/21/2021 18:31:39,Female,Bachelor,Unemployed,,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,Option 1,1,1,1,1,1,1,1,1,1,,1,1,1,3,3,4,1,5,1,1,1,1,4,1
+7/21/2021 18:36:00,Female,Bachelor,Unemployed,,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,5,1,1,1,1,1,1,5,5,5,1,5,1,1,1,1,1,1
+7/21/2021 19:59:46,Female,Bachelor,Private Sector,21-29 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,5,5,5,5,5,5,2,5,5,5,5,5,5,1,1,1,5,1,5,5,5,5,5,5
+7/22/2021 7:38:06,Female,Diploma,Public Sector,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Moderate,Continued,,1,1,1,2,2,2,4,3,2,3,4,3,2,2,1,1,1,2,1,1,3,1,3,2
+7/22/2021 10:40:04,Male,Masters,Public Sector,50 years and above,,Yes,Good,Yes,Yes,Very Good,Continued,,5,4,4,5,5,4,3,4,5,4,5,5,4,2,4,3,4,4,5,5,4,5,3,5
+7/22/2021 10:41:40,Male,Masters,Public Sector,50 years and above,,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,2,1,2,4,2,1,1,1,1,1,3,4,2,1,4,1,2,2,2,3,1
+7/22/2021 10:43:21,Male,Masters,Public Sector,40-49 years,Between 10 and 15 years,Yes,Poor,Yes,Yes,Very Good,Continued,,5,5,5,4,5,5,4,5,5,5,5,5,5,4,3,1,4,3,4,5,5,4,4,5
+7/22/2021 10:45:05,Male,Bachelor,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,3,2,2,4,2,1,1,1,1,1,3,4,4,3,3,4,3,2,3,2,1
+7/22/2021 10:46:37,Male,Masters,Public Sector,50 years and above,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,,5,1,1,4,2,1,1,1,3,3,4,4,4,1,3,1,1,1,3,5,2
+7/22/2021 10:48:11,Male,High School or below,Unemployed,21-29 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,2,1,1,2,1,1,2,1,2,1,5,4,4,1,5,1,2,2,3,2,1
+7/22/2021 10:49:39,Male,Masters,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,5,1,1,1,1,1,1,5,3,3,2,2,3,1,1,2,2,1
+7/22/2021 10:51:01,Male,Bachelor,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,2,2,2,3,2,1,1,1,1,2,5,3,5,3,4,5,3,3,2,1,2
+7/22/2021 10:52:44,Male,Masters,Public Sector,50 years and above,,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,2,1,2,1,5,1,1,1,3,1,2,5,5,4,1,2,1,1,1,1,1,1
+7/22/2021 10:54:08,Male,Masters,Public Sector,40-49 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,2,2,1,3,4,1,1,1,1,1,5,2,5,3,3,1,1,1,1,1,1
+7/22/2021 10:55:29,Female,Bachelor,Public Sector,21-29 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,1,2,2,3,1,2,4,2,2,2,2,2,2,4,3,4,2,4,2,2,2,3,2,2
+7/22/2021 10:56:54,Male,Bachelor,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,3,1,2,4,3,1,1,1,2,2,5,5,4,3,4,4,1,2,3,3,1
+7/22/2021 10:58:58,Male,Masters,Public Sector,30-39 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,2,1,1,3,1,1,1,1,1,1,4,4,5,2,4,4,2,2,2,1,2
+7/22/2021 11:02:30,Female,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,2,2,1,2,2,1,1,2,1,1,1,5,4,5,2,,1,2,2,2,2,1
+7/22/2021 11:04:06,Female,Diploma,Unemployed,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,3,4,3,4,2,2,3,2,2,3,3,3,3,4,4,4,3,4,3,3,3,3,3,3
+7/22/2021 11:05:45,Male,Masters,Public Sector,40-49 years,,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,1,1,1,2,3,1,1,1,1,1,2,5,5,,2,2,5,2,2,2,1,1
+7/22/2021 11:07:05,Male,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,3,3,1,2,3,1,2,1,1,1,1,2,1,3,3,4,5,2,2,2,3,2
+7/22/2021 11:08:18,Male,Bachelor,Unemployed,21-29 years,5 year and below,Yes,Moderate,Yes,Yes,Good,Continued,,2,2,2,2,2,2,5,2,2,2,2,2,2,5,5,4,2,4,2,2,2,2,2,1
+7/22/2021 11:10:24,Female,High School or below,Unemployed,21-29 years,5 year and below,Yes,Moderate,Yes,No,,Continued,,,,,,,,,,4,3,4,4,3,5,,4,1,2,5,3,4,5,4,3
+7/22/2021 11:13:22,Female,High School or below,Unemployed,30-39 years,Between 5 and 10 years,Yes,Good,No,Yes,Very Good,Continued,,1,2,2,3,2,3,2,2,3,2,2,2,2,3,2,2,4,5,5,2,3,3,3,3
+7/22/2021 11:14:42,Male,Masters,Private Sector,40-49 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,3,3,1,1,5,1,3,2,1,2,2,5,5,5,2,4,1,,,,,
+7/22/2021 11:16:08,Female,Diploma,Private Sector,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,2,2,2,2,2,2,5,2,3,3,3,3,2,5,5,5,3,5,3,3,3,3,3,3
+7/22/2021 11:17:59,Male,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,2,1,2,2,2,2,5,2,2,2,2,2,2,5,5,5,2,5,2,2,2,2,2,2
+7/22/2021 11:20:12,Female,Bachelor,Public Sector,30-39 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Good,Continued,,5,5,5,5,5,4,3,5,5,4,5,4,3,4,3,4,4,3,5,3,4,4,4,5
+7/22/2021 11:22:05,Male,Bachelor,Public Sector,30-39 years,Between 5 and 10 years,Yes,Moderate,Yes,Yes,Good,Continued,,1,1,3,4,1,3,3,1,1,1,3,3,3,5,4,5,5,4,2,1,1,2,1,1
+7/22/2021 11:24:34,Male,Diploma,Unemployed,30-39 years,5 year and below,Yes,Very Good,Yes,Yes,Very Good,Continued,,3,1,3,5,1,3,2,3,3,1,3,3,1,3,3,3,1,4,1,3,1,3,1,3
+7/22/2021 11:26:05,Male,High School or below,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,2,2,1,1,5,2,1,2,2,1,2,5,4,4,1,4,1,2,2,2,2,2
+7/22/2021 11:27:19,Female,Bachelor,Private Sector,30-39 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Good,Continued,,2,1,3,3,2,2,2,2,2,2,1,2,1,2,2,3,4,4,4,2,2,3,3,2
+7/22/2021 11:28:34,Male,Diploma,Public Sector,40-49 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,5,5,5,5,5,5,5,5,1,1,1,1,1,5,5,5,1,4,1,1,1,1,2,1
+7/22/2021 11:29:52,Male,Diploma,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,3,2,2,3,3,2,2,2,3,3,3,3,3,3,4,4,4,4,4,3,3,,3,3
+7/22/2021 11:31:03,Male,Bachelor,Unemployed,21-29 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,2,2,2,2,2,2,4,2,2,2,2,4,4,3,1,2,2,2,2,2,2,4,2,3
+7/22/2021 11:32:11,Male,Masters,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,5,4,4,3,4,4,4,4,4,5,4,4,3,4,5,3,3,4,1,4,4,4,3,4
+7/22/2021 11:33:29,Male,Diploma,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,4,1,1,1,1,1,2,2,1,1,1,1,2,5,5,5,1,5,1,1,1,2,1,1
+7/22/2021 11:34:56,Male,Diploma,Public Sector,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Good,Continued,,5,5,5,4,5,5,5,4,5,5,5,4,4,5,5,5,4,4,2,2,2,2,2,2
+7/22/2021 11:36:24,Female,Bachelor,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,3,3,1,3,3,3,5,3,3,3,3,3,1,5,5,5,4,,3,2,2,2,2,2
+7/22/2021 11:37:38,Male,Diploma,Public Sector,40-49 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Good,Continued,,1,2,2,2,2,2,3,3,1,2,2,2,2,4,3,4,1,4,1,1,3,2,2,2
+7/22/2021 11:39:47,Male,Diploma,Public Sector,40-49 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,,Continued,,1,1,2,3,1,2,3,3,2,3,3,3,2,4,2,4,1,4,1,1,3,2,3,2
+7/22/2021 11:42:06,Male,Diploma,Public Sector,30-39 years,Between 5 and 10 years,No,Moderate,No,No,Very Poor,Suspended,,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,5,5,4,5,5,5,5
+7/22/2021 11:43:16,Male,Diploma,Public Sector,40-49 years,Between 10 and 15 years,Yes,Very Poor,No,No,Poor,Suspended,,4,4,4,4,5,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5
+7/22/2021 11:44:47,Male,Diploma,Unemployed,21-29 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Moderate,Continued,,2,2,2,3,2,2,4,2,2,2,2,4,3,2,2,2,2,3,2,2,2,4,3,3
+7/22/2021 11:46:09,Female,Bachelor,Private Sector,21-29 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Moderate,Continued,,1,1,2,2,1,1,5,2,2,2,1,1,1,5,5,4,4,4,1,1,2,1,1,2
+7/22/2021 11:47:35,Male,Bachelor,Unemployed,21-29 years,Between 10 and 15 years,Yes,Good,Yes,No,Good,Continued,,2,2,2,3,2,2,4,2,2,2,2,4,3,2,2,2,2,3,2,2,2,4,3,3
+7/22/2021 11:48:43,Male,Diploma,Unemployed,30-39 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,1,1,2,2,1,1,5,1,1,1,2,1,1,1,5,1,3,2,1,1,1,1,1,1
+7/22/2021 11:50:08,Male,Diploma,Unemployed,21-29 years,5 year and below,Yes,Very Poor,Yes,No,Very Good,Continued,,2,1,3,4,1,1,4,1,2,1,1,1,1,1,1,2,1,1,1,1,2,1,4,1
+7/22/2021 11:51:22,Male,Diploma,Unemployed,30-39 years,5 year and below,Yes,Very Poor,Yes,Yes,Good,Suspended,,1,1,1,5,1,,1,3,1,1,1,1,1,,4,1,2,5,1,1,2,4,1,1
+7/22/2021 11:52:26,Female,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Very Good,Yes,Yes,Good,Continued,,1,1,1,1,1,1,1,1,2,1,1,1,,2,2,2,1,3,1,1,1,1,1,3
+7/22/2021 11:54:02,Female,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Very Good,Yes,Yes,Good,Continued,,1,1,1,1,1,1,1,1,1,2,1,1,2,2,1,1,3,,1,1,1,1,1,3
+7/22/2021 11:55:33,Female,Diploma,Unemployed,21-29 years,5 year and below,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,1,1,3,1,1,1,1,1,3
+7/22/2021 11:57:51,Female,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,1,1,2,1,2,1,1,1,1,1,1,1,2,2,2,1,1,1,1,1,3
+7/22/2021 11:59:04,Female,High School or below,Unemployed,21-29 years,5 year and below,Yes,Very Good,Yes,No,Moderate,,,1,1,1,2,1,1,1,1,1,1,2,2,1,3,1,2,1,1,1,1,1,1,1,1
+7/22/2021 12:00:15,Female,,,30-39 years,Between 5 and 10 years,Yes,Very Good,No,No,Very Good,Continued,,4,5,4,4,5,5,3,4,4,4,3,3,,1,1,1,4,3,3,1,1,2,1,1
+7/22/2021 12:02:01,Female,High School or below,,21-29 years,Between 5 and 10 years,Yes,Very Good,Yes,No,Good,Continued,,1,1,1,1,1,1,2,2,2,2,1,1,1,1,2,1,2,2,2,1,2,2,2,3
+7/22/2021 12:03:16,Female,High School or below,Unemployed,30-39 years,5 year and below,No,,Yes,No,Moderate,,,1,2,1,1,1,1,1,1,1,2,2,1,,1,1,2,,3,1,1,1,2,1,1
+7/22/2021 12:04:31,Female,Diploma,Public Sector,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,2,2,3,1,1,1,2,1,1,1,1,2,2,1,1,1,2,2,1,2,3,2,4,2
+7/22/2021 12:06:13,Female,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,,Continued,,1,1,1,1,1,1,1,1,1,1,1,2,2,3,2,2,2,2,3,3,1,3,3,3
+7/22/2021 12:08:21,Male,Bachelor,Unemployed,30-39 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Suspended,,2,3,4,4,2,2,1,2,3,3,3,3,,2,1,1,2,1,2,2,3,3,1,2
+7/22/2021 12:09:51,Female,High School or below,Unemployed,21-29 years,Between 5 and 10 years,No,Very Good,Yes,No,Good,Continued,,2,2,2,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,2,2,2
+7/22/2021 12:11:22,Female,High School or below,Unemployed,21-29 years,5 year and below,No,Very Good,Yes,No,Good,Continued,,2,2,2,2,2,1,2,1,1,1,1,1,2,2,2,2,1,1,1,2,2,1,1,2
+7/22/2021 12:12:22,Male,High School or below,Unemployed,21-29 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Very Good,Continued,,1,1,4,4,3,4,4,3,1,3,1,3,2,5,5,2,2,4,3,2,4,2,2,2
+7/22/2021 12:13:34,Female,High School or below,Unemployed,21-29 years,Between 5 and 10 years,No,,Yes,No,Good,Continued,,2,2,2,2,,2,2,2,2,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1
+7/22/2021 12:14:56,Male,High School or below,Unemployed,30-39 years,Between 5 and 10 years,,Good,Yes,No,Very Good,Non Applicable,,2,1,2,2,3,2,3,2,1,3,2,1,2,3,2,3,2,3,3,2,2,4,2,3
+7/22/2021 12:22:45,Female,High School or below,Private Sector,21-29 years,5 year and below,Yes,Very Good,Yes,No,Very Good,,,1,1,2,4,1,1,4,1,1,3,1,1,,5,5,2,1,1,3,1,2,1,1,2
+7/22/2021 12:24:40,Female,High School or below,Unemployed,30-39 years,Between 5 and 10 years,Yes,Very Poor,Yes,Yes,Very Good,Continued,,1,1,1,1,1,1,1,1,2,1,1,2,1,1,1,2,3,3,3,1,1,1,1,1
+7/22/2021 12:26:19,Female,High School or below,Unemployed,21-29 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,1,1,2,2,1,3,3,3,3,2,1,2,2,3,1,2,1,2,3,3,3
+7/22/2021 12:28:45,Female,Diploma,Unemployed,21-29 years,Between 10 and 15 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,1,1,1,2,2,1,2,2,1,1,1,2,1,2,1,1,2,1,1,2,1,1,1,1
+7/22/2021 12:30:04,Female,High School or below,Unemployed,30-39 years,Between 5 and 10 years,Yes,Good,Yes,Yes,Very Poor,Continued,,1,2,2,1,1,1,2,2,2,3,2,2,1,1,1,2,3,3,3,1,2,3,3,2
+7/23/2021 4:32:29,Male,Masters,Public Sector,30-39 years,Between 10 and 15 years,Yes,Moderate,Yes,Yes,Very Good,Continued,,1,1,1,1,1,2,3,2,2,2,2,2,2,4,2,4,2,2,2,2,2,4,4,2
+7/23/2021 10:57:44,Male,Diploma,Unemployed,21-29 years,Between 5 and 10 years,Yes,Very Good,Yes,Yes,Very Good,Continued,,2,3,2,1,1,2,1,2,2,1,,2,2,2,1,1,2,1,1,,1,2,1,
+7/23/2021 16:15:58,Male,Bachelor,Public Sector,40-49 years,Between 10 and 15 years,Yes,Good,Yes,Yes,Good,Continued,,1,1,1,1,1,1,4,1,1,1,1,1,2,5,5,5,1,4,2,1,1,1,1,1

@@ -1,0 +1,364 @@
+---
+title: "USAGE"
+author: "Boniface Kalong"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+```{r setup, include=FALSE,warning=FALSE,message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+## load packages from CRAN
+pacman::p_load(rio,          # File import
+               here,         # File locator
+               tidyverse,    # data management + ggplot2 graphics
+               tsibble,      # handle time series datasets
+               survey,       # for survey functions
+               srvyr,        # dplyr wrapper for survey package
+               gtsummary,    # wrapper for survey package to produce tables
+               apyramid,     # a package dedicated to creating age pyramids       
+               patchwork,    # for combining ggplots
+               ggforce ,      # for alluvial/sankey plots
+               tinytex,
+               dplyr,
+               mice,
+               VIM,
+               DMwR2,
+               apyramid,
+               dplyr,
+               arsenal,
+               kableExtra,
+               ggplot2,
+               readxl,
+               DataExplorer
+               ) 
+
+## load packages from github
+pacman::p_load_gh(
+     "R4EPI/sitrep"          # for observation time / weighting functions
+)
+# Load the necessary libraries
+
+```
+
+```{r}
+USAGE <- read_excel("USAGE.xlsx")
+USAGE_xlsx = USAGE
+colnames(USAGE_xlsx)
+```
+
+```{r}
+introduce(USAGE)
+
+```
+
+The summary table above indicates the following information about the dataset:
+
+-   Rows: 418
+
+-   Columns: 37
+
+-   Discrete columns: 13
+
+-   Continuous columns: 24
+
+-   All missing columns: 0 (no columns with missing values)
+
+-   Total missing values: This information is not provided in the summary table.
+
+-   Complete rows: This information is not provided in the summary table.
+
+-   Total observations: This information is not provided in the summary table.
+
+-   Memory usage: This information is not provided in the summary table.
+
+\
+
+```{r}
+plot_intro(USAGE)
+```
+
+Function to abbreviate columns by using the first letter of each word in the column.
+
+```{r}
+source("functions.R")
+# Call the function to abbreviate columns
+USAGE <- abbreviate_df_columns(USAGE)
+
+# Print the abbreviated column names
+print(colnames(USAGE))
+# Call the function to abbreviate columns
+column_names <- abbreviate_columns(USAGE_xlsx)
+
+# Print the data frame with previous and abbreviated column names
+# View(column_names)
+# colnames(USAGE)
+```
+
+```{r}
+skimr::skim(USAGE)
+```
+
+Based on the data summary, we can see that there are 418 rows and 37 columns in the dataset. The data types of the columns are as follows:
+
+Character: 12 columns Numeric: 24 columns POSIXct: 1 column There are no group variables in the dataset.
+
+```{r}
+# Calculate the missing value percentages for each column
+missing_percentages <- colSums(is.na(USAGE)) / nrow(USAGE) * 100
+
+# Identify columns with missing value percentages above 50%
+columns_to_drop <- names(missing_percentages[missing_percentages > 50])
+
+# Drop the columns from the data frame
+USAGE <- USAGE[, !(names(USAGE) %in% columns_to_drop)]
+
+```
+
+```{r}
+
+# Create a data frame with the column names and their corresponding missing value percentages
+missing_data <- data.frame(
+  Column = colnames(USAGE),
+  Missing_Percentage = colSums(is.na(USAGE)) / nrow(USAGE) * 100
+)
+
+# Plot the missing value percentages
+ggplot(missing_data, aes(x = reorder(Column, -Missing_Percentage), y = Missing_Percentage)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  labs(x = "Column", y = "Missing Percentage") +
+  ggtitle("Missing Value Percentage in Each Column") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+```
+
+```{r}
+# library(summarytools)
+# 
+# dfSummary(
+#   USAGE,
+#   varnumbers = FALSE,
+#   round.digits = 2,
+#   plain.ascii = FALSE,
+#   style = "grid",
+#   graph.magnif = .33,
+#   valid.col = FALSE,
+#   tmp.img.dir = "img"
+# )
+```
+
+```{r,warning=FALSE,message=FALSE}
+
+
+filled_data <- fillMissingValues(USAGE)
+Data <- filled_data%>%
+        mutate_if(is.numeric, round)
+
+```
+
+```{r,warning=FALSE}
+
+# Calculate the percentage for each category
+Individual_ratinng <- Data %>%
+  group_by(Iyhwyrts) %>%
+  tally() %>%
+  mutate(Percentage = n / nrow(filled_data) * 100,
+          ymax = cumsum(Percentage),
+          ymin = ifelse(is.na(lag(ymax)), 0, lag(ymax)))
+
+```
+
+```{r}
+
+```
+
+```{r}
+selected_columns <- Data%>%
+                    select(Piyg, Hloe, Waye, Wiyar, TMRSietu)
+```
+
+The `selected_columns` data frame provided contains four columns: `Piyg`, `Hloe`, `Waye`, and `Wiyar`. Each column represents different attributes or categories. Here's a brief description of each column:
+
+**Piyg**: This column represents the gender of the individuals. It contains values such as "Male" and "Female".
+
+**Hloe**: This column represents the highest level of education of the individuals. It includes categories like "High School or below", "Bachelor", and "Diploma".
+
+**Waye**: This column represents the employment status of the individuals. It includes categories such as "Unemployed" and "Public Sector".
+
+**Wiyar**: This column represents the age range of the individuals. It includes categories like "40-49 years", "50 years and above", "21-29 years", and so on. **TMRSietu:** This column represents the individual rating if the Mobile Renewal Service is easy to use
+
+```{r}
+
+
+```
+
+```{r}
+
+ggplot(selected_columns, aes(x = Hloe, fill = Waye)) +
+  geom_bar(position = position_dodge()) +
+  coord_flip() +
+  labs(x = "Education Level", y = "Proportion", fill = "Employment Status") +
+  # scale_fill_manual(values = c("Female" = "pink", "Male" = "lightblue")) +
+  theme_minimal()+
+  theme(
+    legend.title = element_text(hjust = 0.5, margin = margin(b = 10)),
+    legend.position = "bottom",
+    legend.direction = "horizontal"
+  ) +
+  guides(fill = guide_legend(title.position = "top"))
+
+```
+
+```{r}
+pyramid <- selected_columns %>%
+  ## ensure that age and gender are factors
+  mutate(Age_Group = factor(Wiyar, levels = c("50 years and above",
+                                       "40-49 years",
+                                       "30-39 years",
+                                       "21-29 years")),
+         Gender = factor(Piyg)) %>%
+  group_by(Age_Group, Gender, .groups = 'drop') %>%
+  ## add the counts for each age group and gender together
+  summarise(population = sum(n())) %>%
+  ## remove the grouping so we can calculate the overall proportion
+  ungroup() %>%
+  mutate(proportion = population / sum(population))
+
+## plot pyramid
+pyramid %>%
+  age_pyramid(
+    age_group = "Age_Group",
+    split_by = "Gender",
+    count = proportion,
+    proportional = TRUE) +
+  scale_fill_manual(                             # specify colors AND labels
+    values = c("pink", "lightblue"),              
+    labels = c("m" = "Male", "f" = "Female"))+
+  labs(y = "Percent of all cases",              # note x and y labs are switched
+       x = "Age categories",                          
+       fill = "Gender", 
+       # caption = "",
+       title = "Gender of all Age Range",
+       subtitle = "What is your age range?")+
+  theme_minimal()+
+  theme(
+    legend.title = element_text(hjust = 0.5, margin = margin(b = 10)),
+    legend.position = "bottom",
+    legend.direction = "horizontal"
+  ) +
+  guides(fill = guide_legend(title.position = "top"))
+
+```
+
+```{r}
+ggplot(data = Individual_ratinng )+
+  geom_rect(aes(ymin = ymin, ymax = ymax,fill = Iyhwyrts,
+                         xmin= 2, xmax = 4))+
+  coord_polar(theta="y")+
+  theme_void()+
+  xlim(c(-1, 4))+
+  geom_text(aes(x = 3.5, y = Percentage ,label = paste0(Iyhwyrts,"\n",round(Percentage,1), "%")),
+            position = position_stack(vjust = 0.5), size = 2.5)+
+  labs(title    = "Individual Rating of the Mobile Renewal Service Of NHIS",
+       fill = "Ratting")+
+  labs(subtitle = "If yes, how will you rate the service?")
+```
+
+```{r}
+# Calculate the frequency of Piyg and Waye combinations
+frequency <- selected_columns %>%
+  group_by(Piyg, Waye) %>%
+  tally()
+
+# Bar plot
+bar_plot <- ggplot(frequency, aes(x = Piyg, y = n, fill = Waye)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Distribution by Piyg and Waye",
+       x = "Gender",
+       y = "Frequency",
+       fill = "Employment Status")
+
+
+
+# Display the plots
+bar_plot
+
+```
+
+```{r,results='asis'}
+table1 <-  tableby(Iyhwyrts~Piyg +Hloe+Waye+Wiyar, data = USAGE)
+summary(table1)
+
+```
+
+## Likert Scale Analysis
+
+1.  Define latent variables:
+
+    1.  Gender: Create a latent variable representing gender, which can be indicated by the responses to question 2.
+
+    2.  Education Level: Create a latent variable representing the highest level of education, based on question 3.
+
+    3.  Employment Status: Create a latent variable representing employment status, using the responses from question 4.
+
+    4.  Age Range: Create a latent variable representing age range, based on the responses to question 5.
+
+    5.  Subscriber Duration: Create a latent variable representing the duration of subscription to the National Health Insurance Scheme, using the responses from question 6.
+
+    6.  Access Healthcare: Create a latent variable representing previous access to healthcare under the National Health Insurance Scheme, based on question 7.
+
+    7.  Healthcare Delivery: Create a latent variable representing the perception of healthcare delivery under the National Health Insurance Scheme, using the responses from question 8.
+
+    8.  Awareness of Mobile Renewal Service: Create a latent variable representing awareness of the NHIS Mobile Renewal Service, based on the responses to question 9.
+
+    9.  Mobile Renewal Usage: Create a latent variable representing the usage of the Mobile Renewal Service, using the responses from question 10.
+
+    10. Service Rating: Create a latent variable representing the rating of the Mobile Renewal Service, based on the responses to question 11.
+
+    11. Service Continuation: Create a latent variable representing the agreement on the continuation or suspension of the Mobile Renewal Service, using the responses from question 12.
+
+    12. Perceived Benefits: Create a latent variable representing the perceived benefits of using the Mobile Renewal Service, based on the responses to questions 14-17.
+
+    13. Usability: Create a latent variable representing the usability of the Mobile Renewal Service, using the responses from questions 18-21.
+
+    14. Trust: Create a latent variable representing trust in the Mobile Renewal Service, based on the responses to questions 24-27.
+
+    15. Accessibility: Create a latent variable representing the accessibility of the Mobile Renewal Service, using the responses from questions 30-32.
+
+    16. Reliability: Create a latent variable representing the reliability of the Mobile Renewal Service, based on the responses to questions 33-34.
+
+    17. Data Security: Create a latent variable representing the perception of data security in using the Mobile Renewal Service, using the responses from questions 35-36.
+
+    18. Satisfaction: Create a latent variable representing satisfaction with the overall performance of the Mobile Renewal Service, based on the responses to question 37.
+
+```{r}
+
+```
+
+    ## Modelling 
+
+2.  Define measurement model:
+
+    -   Assign survey questions to corresponding latent variables as indicators. For example, question 2 will be an indicator of the Gender latent variable, question 3 will be an indicator of the Education Level latent variable, and so on. Assign appropriate measurement models (e.g., binary, ordinal, or continuous) based on the nature of the survey questions.
+
+3.  Define structural model:
+
+    -   Specify the relationships between latent variables based on theoretical expectations. For example, we hypothesize that Age Range, Gender,Education Level ,Employment Status affects or influences awareness of the Mobile Renewal Service.
+
+4.  Estimate the model:
+
+    -   Use SEM software (such as lavaan, AMOS, or Mplus) to estimate the model parameters. The software will provide estimates for factor loadings, regression coefficients, and latent variable variances and covariances.
+
+        ```{r}
+
+        ```
+
+    ## Model Evaluation
+
+5.  Assess model fit:
+
+    -   Evaluate the goodness-of-fit of the model using fit indices such as the chi-square test, Comparative Fit
+
+```{r}
+
+```
