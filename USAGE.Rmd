@@ -6,48 +6,100 @@ output: word_document
 ---
 
 ```{r setup, include=FALSE,warning=FALSE,message=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-
-## load packages from CRAN
-pacman::p_load(rio,          # File import
-               here,         # File locator
-               tidyverse,    # data management + ggplot2 graphics
-               tsibble,      # handle time series datasets
-               survey,       # for survey functions
-               srvyr,        # dplyr wrapper for survey package
-               gtsummary,    # wrapper for survey package to produce tables
-               apyramid,     # a package dedicated to creating age pyramids       
-               patchwork,    # for combining ggplots
-               ggforce ,      # for alluvial/sankey plots
-               tinytex,
-               dplyr,
-               mice,
-               VIM,
-               DMwR2,
-               apyramid,
-               dplyr,
-               arsenal,
-               kableExtra,
-               ggplot2,
-               readxl,
-               DataExplorer
-               ) 
-
-## load packages from github
-pacman::p_load_gh(
-     "R4EPI/sitrep"          # for observation time / weighting functions
-)
-# Load the necessary libraries
+# knitr::opts_chunk$set(echo = TRUE)
+# 
+# ## load packages from CRAN
+# pacman::p_load(rio,          # File import
+#                here,         # File locator
+#                tidyverse,    # data management + ggplot2 graphics
+#                tsibble,      # handle time series datasets
+#                survey,       # for survey functions
+#                srvyr,        # dplyr wrapper for survey package
+#                gtsummary,    # wrapper for survey package to produce tables
+#                apyramid,     # a package dedicated to creating age pyramids       
+#                patchwork,    # for combining ggplots
+#                ggforce ,      # for alluvial/sankey plots
+#                tinytex,
+#                dplyr,
+#                mice,
+#                VIM,
+#                DMwR2,
+#                apyramid,
+#                dplyr,
+#                arsenal,
+#                kableExtra,
+#                ggplot2,
+#                readxl,
+#                DataExplorer
+#                ) 
+# 
+# ## load packages from github
+# pacman::p_load_gh(
+#      "R4EPI/sitrep"          # for observation time / weighting functions
+# )
+# # Load the necessary libraries
 
 ```
 
 ```{r}
+library(readxl)
 USAGE <- read_excel("USAGE.xlsx")
-USAGE_xlsx = USAGE
-colnames(USAGE_xlsx)
+colnames(USAGE)
+
 ```
 
 ```{r}
+
+# Assign the column names
+colnames(USAGE) <- c(
+  "Timestamp",
+  "Gender",
+  "Education",
+  "Employment",
+  "AgeRange",
+  "NHIS_Subscription_Duration",
+  "Previous_Healthcare_Access",
+  "Healthcare_Delivery_Perception",
+  "NHIS_Mobile_Renewal_Awareness",
+  "Previous_Mobile_Renewal_Use",
+  "Mobile_Renewal_Rating",
+  "Mobile_Renewal_Continuation_Opinion",
+  "...13",
+  "Mobile_Renewal_Speed_Efficiency",
+  "Mobile_Renewal_Time_Resource_Savings",
+  "Mobile_Renewal_Effectiveness",
+  "Mobile_Renewal_Productivity",
+  "Mobile_Renewal_Ease_of_Use",
+  "Mobile_Renewal_Learning_Ease",
+  "Mobile_Renewal_Mental_Effort",
+  "Mobile_Renewal_Interactions_Clear",
+  "Mobile_Renewal_Intention_to_Use",
+  "Mobile_Renewal_Benefits_Awareness",
+  "Mobile_Renewal_Mobile_Money_Access",
+  "Mobile_Renewal_Service_Usefulness",
+  "Mobile_Renewal_Service_Quality",
+  "Mobile_Renewal_Service_Cost",
+  "The_service_charge_for_Mobile_Renewal",
+  "Mobile_Renewal_Financial_Barriers",
+  "Mobile_Renewal_Service_Accessibility",
+  "Mobile_Renewal_Service_Disruptions",
+  "Mobile_Renewal_Service_Availability",
+  "Mobile_Renewal_Service_Reliability",
+  "Mobile_Renewal_Service_Authenticity",
+  "Trust_Telecom_Operators",
+  "Mobile_Renewal_Service_Data_Security",
+  "Mobile_Renewal_Service_Satisfaction"
+)
+
+
+```
+
+```{r}
+ 
+```
+
+```{r,warning=FALSE,message=FALSE}
+library(DataExplorer)
 introduce(USAGE)
 
 ```
@@ -81,22 +133,23 @@ plot_intro(USAGE)
 Function to abbreviate columns by using the first letter of each word in the column.
 
 ```{r}
-source("functions.R")
-# Call the function to abbreviate columns
-USAGE <- abbreviate_df_columns(USAGE)
-
-# Print the abbreviated column names
-print(colnames(USAGE))
-# Call the function to abbreviate columns
-column_names <- abbreviate_columns(USAGE_xlsx)
-
-# Print the data frame with previous and abbreviated column names
-# View(column_names)
-# colnames(USAGE)
+# source("functions.R")
+# # Call the function to abbreviate columns
+# USAGE <- abbreviate_df_columns(USAGE)
+# 
+# # Print the abbreviated column names
+# print(colnames(USAGE))
+# # Call the function to abbreviate columns
+# column_names <- abbreviate_columns(USAGE_xlsx)
+# 
+# # Print the data frame with previous and abbreviated column names
+# # View(column_names)
+# # colnames(USAGE)
 ```
 
 ```{r}
-skimr::skim(USAGE)
+library(skimr)
+skim(USAGE)
 ```
 
 Based on the data summary, we can see that there are 418 rows and 37 columns in the dataset. The data types of the columns are as follows:
@@ -115,8 +168,8 @@ USAGE <- USAGE[, !(names(USAGE) %in% columns_to_drop)]
 
 ```
 
-```{r}
-
+```{r,warning=FALSE,message=FALSE}
+library(ggplot2)
 # Create a data frame with the column names and their corresponding missing value percentages
 missing_data <- data.frame(
   Column = colnames(USAGE),
@@ -148,8 +201,9 @@ ggplot(missing_data, aes(x = reorder(Column, -Missing_Percentage), y = Missing_P
 ```
 
 ```{r,warning=FALSE,message=FALSE}
-
-
+library(tidyverse)
+library(dplyr)
+source('functions.R')
 filled_data <- fillMissingValues(USAGE)
 Data <- filled_data%>%
         mutate_if(is.numeric, round)
@@ -160,7 +214,7 @@ Data <- filled_data%>%
 
 # Calculate the percentage for each category
 Individual_ratinng <- Data %>%
-  group_by(Iyhwyrts) %>%
+  group_by(Mobile_Renewal_Rating) %>%
   tally() %>%
   mutate(Percentage = n / nrow(filled_data) * 100,
           ymax = cumsum(Percentage),
@@ -174,7 +228,7 @@ Individual_ratinng <- Data %>%
 
 ```{r}
 selected_columns <- Data%>%
-                    select(Piyg, Hloe, Waye, Wiyar, TMRSietu)
+                    select(Gender, Education, Employment, AgeRange,                                            Mobile_Renewal_Ease_of_Use)
 ```
 
 The `selected_columns` data frame provided contains four columns: `Piyg`, `Hloe`, `Waye`, and `Wiyar`. Each column represents different attributes or categories. Here's a brief description of each column:
@@ -185,7 +239,9 @@ The `selected_columns` data frame provided contains four columns: `Piyg`, `Hloe`
 
 **Waye**: This column represents the employment status of the individuals. It includes categories such as "Unemployed" and "Public Sector".
 
-**Wiyar**: This column represents the age range of the individuals. It includes categories like "40-49 years", "50 years and above", "21-29 years", and so on. **TMRSietu:** This column represents the individual rating if the Mobile Renewal Service is easy to use
+**Wiyar**: This column represents the age range of the individuals. It includes categories like "40-49 years", "50 years and above", "21-29 years", and so on.
+
+**TMRSietu:** This column represents the individual rating if the Mobile Renewal Service is easy to use
 
 ```{r}
 
@@ -194,7 +250,7 @@ The `selected_columns` data frame provided contains four columns: `Piyg`, `Hloe`
 
 ```{r}
 
-ggplot(selected_columns, aes(x = Hloe, fill = Waye)) +
+ggplot(selected_columns, aes(x = Education, fill = Employment)) +
   geom_bar(position = position_dodge()) +
   coord_flip() +
   labs(x = "Education Level", y = "Proportion", fill = "Employment Status") +
@@ -209,14 +265,15 @@ ggplot(selected_columns, aes(x = Hloe, fill = Waye)) +
 
 ```
 
-```{r}
+```{r,warning=FALSE,message=FALSE}
+library(apyramid)
 pyramid <- selected_columns %>%
   ## ensure that age and gender are factors
-  mutate(Age_Group = factor(Wiyar, levels = c("50 years and above",
+  mutate(Age_Group = factor(AgeRange, levels = c("50 years and above",
                                        "40-49 years",
                                        "30-39 years",
                                        "21-29 years")),
-         Gender = factor(Piyg)) %>%
+         Gender = factor(Gender)) %>%
   group_by(Age_Group, Gender, .groups = 'drop') %>%
   ## add the counts for each age group and gender together
   summarise(population = sum(n())) %>%
@@ -252,12 +309,12 @@ pyramid %>%
 
 ```{r}
 ggplot(data = Individual_ratinng )+
-  geom_rect(aes(ymin = ymin, ymax = ymax,fill = Iyhwyrts,
+  geom_rect(aes(ymin = ymin, ymax = ymax,fill = Mobile_Renewal_Rating,
                          xmin= 2, xmax = 4))+
   coord_polar(theta="y")+
   theme_void()+
   xlim(c(-1, 4))+
-  geom_text(aes(x = 3.5, y = Percentage ,label = paste0(Iyhwyrts,"\n",round(Percentage,1), "%")),
+  geom_text(aes(x = 3.5, y = Percentage ,label = paste0(Mobile_Renewal_Rating,"\n",round(Percentage,1), "%")),
             position = position_stack(vjust = 0.5), size = 2.5)+
   labs(title    = "Individual Rating of the Mobile Renewal Service Of NHIS",
        fill = "Ratting")+
@@ -267,13 +324,13 @@ ggplot(data = Individual_ratinng )+
 ```{r}
 # Calculate the frequency of Piyg and Waye combinations
 frequency <- selected_columns %>%
-  group_by(Piyg, Waye) %>%
+  group_by(Gender, Employment) %>%
   tally()
 
 # Bar plot
-bar_plot <- ggplot(frequency, aes(x = Piyg, y = n, fill = Waye)) +
+bar_plot <- ggplot(frequency, aes(x = Gender, y = n, fill = Employment)) +
   geom_bar(stat = "identity", position = "stack") +
-  labs(title = "Distribution by Piyg and Waye",
+  labs(title = "Distribution by Gender and Employment",
        x = "Gender",
        y = "Frequency",
        fill = "Employment Status")
@@ -285,75 +342,165 @@ bar_plot
 
 ```
 
+## 
+
+Convert all columns except the first to factors
+
+To assign survey questions to corresponding latent variables as indicators and determine appropriate measurement models, we need more information about the nature of the survey questions. The type of measurement model (binary, ordinal, or continuous) depends on the scaling and response options of each question.
+
 ```{r,results='asis'}
-table1 <-  tableby(Iyhwyrts~Piyg +Hloe+Waye+Wiyar, data = USAGE)
-summary(table1)
+# Convert all columns except the first to factors
+USAGE[, -1] <- lapply(USAGE[, -1], as.factor)
 
 ```
 
-## Likert Scale Analysis
+## Analysis
 
 1.  Define latent variables:
 
-    1.  Gender: Create a latent variable representing gender, which can be indicated by the responses to question 2.
+    Latent Variable 1: Awareness and Perception of Mobile Renewal Service
 
-    2.  Education Level: Create a latent variable representing the highest level of education, based on question 3.
+    -   Indicator 9: Do you know about the NHIS Mobile Renewal Service?
 
-    3.  Employment Status: Create a latent variable representing employment status, using the responses from question 4.
+    -   Indicator 10: Have you ever used the Mobile Renewal Service before?
 
-    4.  Age Range: Create a latent variable representing age range, based on the responses to question 5.
+    -   Indicator 11: If yes, how will you rate the service?
 
-    5.  Subscriber Duration: Create a latent variable representing the duration of subscription to the National Health Insurance Scheme, using the responses from question 6.
+    -   Indicator 12: Do you agree that the Mobile Renewal Service should be continued or suspended?
 
-    6.  Access Healthcare: Create a latent variable representing previous access to healthcare under the National Health Insurance Scheme, based on question 7.
+    Latent Variable 2: Perceived Benefits of Mobile Renewal Service
 
-    7.  Healthcare Delivery: Create a latent variable representing the perception of healthcare delivery under the National Health Insurance Scheme, using the responses from question 8.
+    -   Indicator 14: Using the Mobile Renewal Service enables me to renew my health insurance faster.
 
-    8.  Awareness of Mobile Renewal Service: Create a latent variable representing awareness of the NHIS Mobile Renewal Service, based on the responses to question 9.
+    -   Indicator 15: The Mobile Renewal Service saves me time and resources in renewing my health insurance.
 
-    9.  Mobile Renewal Usage: Create a latent variable representing the usage of the Mobile Renewal Service, using the responses from question 10.
+    -   Indicator 16: The Mobile Renewal Service enhances my effectiveness in renewing my health insurance.
 
-    10. Service Rating: Create a latent variable representing the rating of the Mobile Renewal Service, based on the responses to question 11.
+    -   Indicator 17: The Mobile Renewal Service increases productivity in healthcare delivery.
 
-    11. Service Continuation: Create a latent variable representing the agreement on the continuation or suspension of the Mobile Renewal Service, using the responses from question 12.
+    Latent Variable 3: Usability and User Experience of Mobile Renewal Service
 
-    12. Perceived Benefits: Create a latent variable representing the perceived benefits of using the Mobile Renewal Service, based on the responses to questions 14-17.
+    -   Indicator 18: The Mobile Renewal Service is easy to use.
 
-    13. Usability: Create a latent variable representing the usability of the Mobile Renewal Service, using the responses from questions 18-21.
+    -   Indicator 19: Learning to use the Mobile Renewal Service is easy.
 
-    14. Trust: Create a latent variable representing trust in the Mobile Renewal Service, based on the responses to questions 24-27.
+    -   Indicator 20: Interactions with the System requires a lot of mental effort.
 
-    15. Accessibility: Create a latent variable representing the accessibility of the Mobile Renewal Service, using the responses from questions 30-32.
+    -   Indicator 21: My interactions with the system are clear and understandable.
 
-    16. Reliability: Create a latent variable representing the reliability of the Mobile Renewal Service, based on the responses to questions 33-34.
+    Latent Variable 4: Perceived Accessibility and Reliability of Mobile Renewal Service
 
-    17. Data Security: Create a latent variable representing the perception of data security in using the Mobile Renewal Service, using the responses from questions 35-36.
+    -   Indicator 30: The Mobile Renewal Service is always accessible.
 
-    18. Satisfaction: Create a latent variable representing satisfaction with the overall performance of the Mobile Renewal Service, based on the responses to question 37.
+    -   Indicator 31: Disruptions and problems always occur in accessing the Mobile Renewal Service.
+
+    -   Indicator 32: Mobile Renewal Service is available everywhere and every time even on holidays.
+
+    -   Indicator 33: The Mobile Renewal Service is reliable.
+
+    Latent Variable 5: Trust and Security of Mobile Renewal Service
+
+    -   Indicator 34: The Mobile Renewal Service is authentic and reliable in its claims.
+
+    -   Indicator 35: I trust the telecommunication operators to provide secure data communication for using the Mobile Renewal Service.
+
+    -   Indicator 36: The use of the Mobile Renewal Service will not disclose my personal information.
+
+    -   Indicator 37: I am satisfied with the overall performance of the Mobile Renewal Service.
 
 ```{r}
+# Specify the latent variable names
+latent_vars <- c("Awareness", "Benefits", "Usability", "Accessibility", "Trust")
+
+
+
 
 ```
 
-    ## Modelling 
+## Modelling
 
 2.  Define measurement model:
 
     -   Assign survey questions to corresponding latent variables as indicators. For example, question 2 will be an indicator of the Gender latent variable, question 3 will be an indicator of the Education Level latent variable, and so on. Assign appropriate measurement models (e.g., binary, ordinal, or continuous) based on the nature of the survey questions.
 
-3.  Define structural model:
+```{r}
+# Specify the indicator names for each latent variable
+indicators <- list(
+  Awareness = c("NHIS_Mobile_Renewal_Awareness", "Previous_Mobile_Renewal_Use", "Mobile_Renewal_Rating", "Mobile_Renewal_Continuation_Opinion"),
+  Benefits = c("Mobile_Renewal_Speed_Efficiency", "Mobile_Renewal_Time_Resource_Savings", "Mobile_Renewal_Effectiveness", "Mobile_Renewal_Productivity"),
+  Usability = c("Mobile_Renewal_Ease_of_Use", "Mobile_Renewal_Benefits_Awareness", "Mobile_Renewal_Mobile_Money_Access", "Mobile_Renewal_Service_Usefulness"),
+  Accessibility = c("Mobile_Renewal_Service_Accessibility", "Mobile_Renewal_Service_Disruptions", "Mobile_Renewal_Service_Availability", "Mobile_Renewal_Service_Reliability"),
+  Trust = c("Mobile_Renewal_Service_Authenticity", "Trust_Telecom_Operators", "Mobile_Renewal_Service_Data_Security", "Mobile_Renewal_Service_Satisfaction")
+  # Affordability = c("Q38", "Q39", "Q40", "Q41")
+)
+
+# Specify the relationships between latent variables based on theoretical expectations
+model <- "
+  # Latent variable definitions
+  Awareness =~ NHIS_Mobile_Renewal_Awareness + Previous_Mobile_Renewal_Use + Mobile_Renewal_Rating + Mobile_Renewal_Continuation_Opinion
+  Benefits =~ Mobile_Renewal_Speed_Efficiency + Mobile_Renewal_Time_Resource_Savings + Mobile_Renewal_Effectiveness + Mobile_Renewal_Productivity
+  Usability =~ Mobile_Renewal_Ease_of_Use + Mobile_Renewal_Benefits_Awareness + Mobile_Renewal_Mobile_Money_Access + Mobile_Renewal_Service_Usefulness
+  Accessibility =~ Mobile_Renewal_Service_Accessibility + Mobile_Renewal_Service_Disruptions + Mobile_Renewal_Service_Availability + Mobile_Renewal_Service_Reliability
+  Trust =~ Mobile_Renewal_Service_Authenticity + Trust_Telecom_Operators + Mobile_Renewal_Service_Data_Security + Mobile_Renewal_Service_Satisfaction
+  
+  
+  # Affordability =~ Q38 + Q39 + Q40 + Q41
+
+  # Relationships between latent variables
+  Awareness ~ AgeRange + Gender + Education + Employment
+
+  # Residual variances
+  NHIS_Mobile_Renewal_Awareness ~~ NHIS_Mobile_Renewal_Awareness
+  Previous_Mobile_Renewal_Use ~~ Previous_Mobile_Renewal_Use
+  Mobile_Renewal_Rating ~~ Mobile_Renewal_Rating
+  Mobile_Renewal_Continuation_Opinion ~~ Mobile_Renewal_Continuation_Opinion
+  Mobile_Renewal_Speed_Efficiency ~~ Mobile_Renewal_Speed_Efficiency
+  Mobile_Renewal_Time_Resource_Savings ~~ Mobile_Renewal_Time_Resource_Savings
+  Mobile_Renewal_Effectiveness ~~ Mobile_Renewal_Effectiveness
+  Mobile_Renewal_Productivity ~~ Mobile_Renewal_Productivity
+  Mobile_Renewal_Ease_of_Use ~~ Mobile_Renewal_Ease_of_Use
+  Mobile_Renewal_Benefits_Awareness ~~ Mobile_Renewal_Benefits_Awareness
+  Mobile_Renewal_Mobile_Money_Access ~~ Mobile_Renewal_Mobile_Money_Access
+  Mobile_Renewal_Service_Usefulness ~~ Mobile_Renewal_Service_Usefulness
+  Mobile_Renewal_Service_Accessibility ~~ Mobile_Renewal_Service_Accessibility
+  Mobile_Renewal_Service_Disruptions ~~ Mobile_Renewal_Service_Disruptions
+  Mobile_Renewal_Service_Availability ~~ Mobile_Renewal_Service_Availability
+  Mobile_Renewal_Service_Reliability ~~ Mobile_Renewal_Service_Reliability
+  Mobile_Renewal_Service_Authenticity ~~ Mobile_Renewal_Service_Authenticity
+  Trust_Telecom_Operators ~~ Trust_Telecom_Operators
+  Mobile_Renewal_Service_Data_Security ~~ Mobile_Renewal_Service_Data_Security
+  Mobile_Renewal_Service_Satisfaction ~~ Mobile_Renewal_Service_Satisfaction
+"
+```
+
+2.  Define structural model:
 
     -   Specify the relationships between latent variables based on theoretical expectations. For example, we hypothesize that Age Range, Gender,Education Level ,Employment Status affects or influences awareness of the Mobile Renewal Service.
 
-4.  Estimate the model:
+        ![](images/UCLA.Path.Diagram.png)
+
+        ```{r}
+        # install.packages("lavaan")
+        library(lavaan)
+
+        # Fit the SEM model to the data
+        fit <- sem(model, data = USAGE, ordered = TRUE)
+
+        # Summarize the results
+        summary(fit)
+        ```
+
+3.  Estimate the model:
 
     -   Use SEM software (such as lavaan, AMOS, or Mplus) to estimate the model parameters. The software will provide estimates for factor loadings, regression coefficients, and latent variable variances and covariances.
 
-        ```{r}
+```{r,warning=FALSE,message=FALSE}
 
-        ```
+```
 
-    ## Model Evaluation
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAaCAYAAADFTB7LAAAAa0lEQVR42u3OywnAIBBAwcXSUoCW5D11xDoNCBGNv0MOecJOBSOi1OZMsJ4dvFxEJ1OQnMxBarIKEpNNkJbsBknJYZCSnAYJyVVQziNig7/nZkFEbhTE5HpBVO4dxOXKIDL3BLG5BJ1T6rsbMfep2CaMN00AAAAASUVORK5CYII= "Run Current Chunk")
+
+## Model Evaluation
 
 5.  Assess model fit:
 
